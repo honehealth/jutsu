@@ -1,45 +1,45 @@
-import { theme as baseTheme } from '@chakra-ui/react';
+import { DEFAULT_THEME, type MantineThemeColors } from '@mantine/core'; 
 
-const yellow = {
-  50: '#fff8e3',
-  100: '#fff1c8',
-  200: '#ffeaad',
-  300: '#ffe291',
-  400: '#ffdb76',
-  500: '#ffd45a',
-  600: '#ffc215',
-  700: '#cf9900',
-  800: '#8a6600',
-  900: '#453300',
-};
+export const black = '#161919';
+
+const yellow = [
+  '#fff8e3',
+  '#fff1c8',
+  '#ffeaad',
+  '#ffe291',
+  '#ffdb76',
+  '#ffd45a',
+  '#ffc215',
+  '#cf9900',
+  '#8a6600',
+  '#453300',
+];
 
 export default {
-  ...baseTheme.colors,
-  black: '#161919',
-  brand: yellow,
+  ...DEFAULT_THEME.colors,
   yellow,
-  red: {
-    50: '#fde6e3',
-    100: '#fbcdc7',
-    200: '#f9b4ab',
-    300: '#f79b8e',
-    400: '#f58272',
-    500: '#f36956',
-    600: '#ef3219',
-    700: '#b8220d',
-    800: '#7b1709',
-    900: '#3d0b04',
-  },
-  green: {
-    50: '#e2faf6',
-    100: '#c4f6ed',
-    200: '#a7f1e4',
-    300: '#89ecda',
-    400: '#6ce8d1',
-    500: '#4ee3c8',
-    600: '#21d3b3',
-    700: '#199e86',
-    800: '#116959',
-    900: '#08352d',
-  },
-};
+  red: [
+    '#fde6e3',
+    '#fbcdc7',
+    '#f9b4ab',
+    '#f79b8e',
+    '#f58272',
+    '#f36956',
+    '#ef3219',
+    '#b8220d',
+    '#7b1709',
+    '#3d0b04',
+  ],
+  green: [
+    '#e2faf6',
+    '#c4f6ed',
+    '#a7f1e4',
+    '#89ecda',
+    '#6ce8d1',
+    '#4ee3c8',
+    '#21d3b3',
+    '#199e86',
+    '#116959',
+    '#08352d',
+  ],
+} as MantineThemeColors;

@@ -1,29 +1,14 @@
-import { ComponentStyleConfig } from '@chakra-ui/react';
+import { ThemeComponent } from '.';
 
 export default {
-  baseStyle: {
-    textTransform: 'uppercase',
-    borderRadius: 0,
-    fontFamily: 'MontserratVariable',
-    letterSpacing: 'widest',
-    fontWeight: 'normal',
-    lineHeight: 1,
-  },
-  sizes: {
-    md: {
-      px: '6',
-    },
-    lg: {
-      px: '12',
+  styles: {
+    root: {
+      textTransform: 'uppercase',
+      borderRadius: 0,
+      fontFamily: 'MontserratVariable',
+      letterSpacing: 'widest',
+      fontWeight: 'normal',
+      lineHeight: 1,
     },
   },
-  variants: {
-    outline: ({ colorMode, colorScheme }) => ({
-      color: colorMode === 'dark' ? `${colorScheme}.500` : 'gray.600',
-      borderColor: `${colorScheme}.500`,
-    }),
-  },
-  defaultProps: {
-    colorScheme: 'yellow',
-  },
-} as ComponentStyleConfig;
+} as ThemeComponent; 
