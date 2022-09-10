@@ -1,12 +1,9 @@
-import { ComponentStyleConfig } from '@chakra-ui/react';
+import { ThemeComponent } from ".";
 
 export default {
-  variants: {
-    outline: {
-      borderRadius: 0,
-    },
-    filled: {
+  styles: {
+    root: {
       borderRadius: 0,
     },
   },
-} as ComponentStyleConfig;
+} as ThemeComponent;
