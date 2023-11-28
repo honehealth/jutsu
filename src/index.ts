@@ -1,34 +1,29 @@
-import { DEFAULT_THEME, type MantineTheme } from '@mantine/core';
+import { extendTheme, theme as baseTheme, ThemeConfig } from '@chakra-ui/react';
 
-import colors, { black } from './colors';
+import colors from './colors';
 import components from './components';
 
-const theme: MantineTheme = {
-  ...DEFAULT_THEME,
-
-  // Colors
-  black,
+const theme: Record<string, any> = extendTheme({
   colors,
-  primaryColor: 'yellow',
-  
-  // Fonts
-  fontFamily: 'InterVariable, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji',
-  
-  headings: {
-    fontFamily: 'MontserratVariable, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji',
-    fontWeight: 'normal',
-    sizes: {
-      h1: { fontSize: '2rem', lineHeight: '1.2', fontWeight: 300 },
-      h2: { fontSize: '1.75rem', lineHeight: '1.2', fontWeight: 300 },
-      h3: { fontSize: '1.5rem', lineHeight: '1.2', fontWeight: 300 },
-      h4: { fontSize: '1.25rem', lineHeight: '1.2', fontWeight: 400 },
-      h5: { fontSize: '1.25rem', lineHeight: '1.2', fontWeight: 400 },
-      h6: { fontSize: '1rem', lineHeight: '1', fontWeight: 300 },
+  components,
+  fonts: {
+    heading: 'MontserratVariable',
+    body: 'InterVariable',
+  },
+  letterSpacings: {
+    wide: '0.05rem',
+    wider: '0.10rem',
+    widest: '0.20rem',
+  },
+  sizes: {
+    ...baseTheme.space,
+    screen: {
+      width: '100vw',
+      height: '100vh',
     },
   },
-  
-  // Components
-  components,
-};
+  initialColorMode: 'light',
+  useSystemColorMode: false,
+} as ThemeConfig);
 
 export default theme;

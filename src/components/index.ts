@@ -1,21 +1,27 @@
-import type { CSSObject, MantineTheme } from '@mantine/core';
+import { ComponentStyleConfig } from '@chakra-ui/react';
 
 import Button from './Button';
 import Checkbox from './Checkbox';
+import Heading from './Heading';
+import Text from './Text';
 import Input from './Input';
+import Tag from './Tag';
+import FormLabel from './FormLabel';
 import Select from './Select';
 import Textarea from './Textarea';
-
-export interface ThemeComponent {
-  defaultProps?: Record<string, any>;
-  classNames?: Record<string, string>;
-  styles?: Record<string, CSSObject> | ((theme: MantineTheme, params: any) => Record<string, CSSObject>);
-}
+import Alert from './Alert';
+import Radio from './Radio';
 
 export default {
   Button,
   Checkbox,
+  Heading,
+  Text,
   Input,
+  Tag,
+  FormLabel,
   Select,
   Textarea,
-} as Record<string, ThemeComponent>;
+  Alert,
+  Radio,
+} as Record<string, ComponentStyleConfig>;

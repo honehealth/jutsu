@@ -1,9 +1,17 @@
-import { ThemeComponent } from '.';
+import { ComponentStyleConfig } from '@chakra-ui/react';
 
 export default {
-  styles: {
-    root: {
-      borderRadius: 0,
+  parts: ['field'],
+  variants: {
+    outline: {
+      field: {
+        borderRadius: 0,
+      },
+    },
+    filled: {
+      field: {
+        borderRadius: 0,
+      },
     },
   },
-} as ThemeComponent;
+} as ComponentStyleConfig;
