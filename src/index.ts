@@ -7,8 +7,8 @@ const theme: Record<string, any> = extendTheme({
   colors,
   components,
   fonts: {
-    heading: 'MontserratVariable',
-    body: 'InterVariable',
+    heading: 'Montserrat Variable',
+    body: 'Inter Variable',
   },
   letterSpacings: {
     wide: '0.05rem',
