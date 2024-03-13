@@ -18,6 +18,12 @@ export default {
     },
   },
   variants: {
+    solid: () => ({
+      _hover: {
+        bg: 'black',
+        color: 'white',
+      },
+    }),
     outline: ({ colorMode, colorScheme }) => ({
       color: colorMode === 'dark' ? `${colorScheme}.500` : 'gray.600',
       borderColor: `${colorScheme}.500`,
