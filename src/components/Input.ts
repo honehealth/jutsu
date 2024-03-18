@@ -6,6 +6,7 @@ export default {
     outline: {
       field: {
         borderRadius: 0,
+        borderColor: 'gray.600',
       },
     },
     filled: {
