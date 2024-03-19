@@ -18,7 +18,8 @@ export default {
     },
   },
   variants: {
-    solid: () => ({
+    solid: ({ colorScheme }) => ({
+      bg: `${colorScheme}.500`,
       _hover: {
         bg: 'black',
         color: 'white',
