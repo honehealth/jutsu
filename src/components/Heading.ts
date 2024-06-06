@@ -6,41 +6,51 @@ export default {
   },
   sizes: {
     xs: {
-      fontWeight: 'light',
       fontSize: '1rem',
+      fontWeight: 'light',
       lineHeight: '1',
     },
     sm: {
-      fontWeight: 'normal',
       fontSize: '1.25rem',
+      fontWeight: 'normal',
       letterSpacing: '0.05rem',
       lineHeight: '1.2',
     },
     md: {
-      fontWeight: 'normal',
       fontSize: '1.5rem',
+      fontWeight: 'normal',
       letterSpacing: '0.05rem',
       lineHeight: '1.2',
     },
     lg: {
-      fontWeight: 'light',
       fontSize: '1.5rem',
+      fontWeight: 'light',
       letterSpacing: '0.05rem',
       lineHeight: '1.2',
     },
     xl: {
-      fontWeight: 'light',
       fontSize: '2rem',
+      fontWeight: 'light',
       letterSpacing: '0.05rem',
       lineHeight: '1.2',
     },
   },
   variants: {
-    title: ({ size }) => ({
-      fontSize: size === 'sm' ? '0.75rem' : size === 'lg' ? '1.25rem' : '1rem',
-      fontWeight: 'normal',
-      textTransform: 'uppercase',
-      letterSpacing: '0.20rem',
-    }),
+    title: ({ size }) => {
+      let fontSize = '1rem';
+
+      if (size === 'sm') {
+        fontSize = '0.75rem';
+      } else if (size === 'lg') {
+        fontSize = '1.25rem';
+      }
+
+      return {
+        fontSize,
+        fontWeight: 'normal',
+        letterSpacing: '0.20rem',
+        textTransform: 'uppercase',
+      };
+    },
   },
 } as ComponentStyleConfig;

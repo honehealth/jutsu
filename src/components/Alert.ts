@@ -1,13 +1,13 @@
 import { ComponentStyleConfig } from '@chakra-ui/react';
 
 export default {
-  parts: ['container', 'icon'],
   baseStyle: ({ colorScheme }) => ({
     container: {
       borderWidth: '1px',
       borderColor: `${colorScheme}.500`,
     },
   }),
+  parts: ['container', 'icon'],
   variants: {
     subtle: ({ colorScheme }) => ({
       container: {
@@ -16,8 +16,8 @@ export default {
     }),
     solid: ({ colorScheme }) => ({
       container: {
-        color: 'black',
         bgColor: `${colorScheme}.50`,
+        color: 'black',
       },
       icon: {
         color: `${colorScheme}.500`,

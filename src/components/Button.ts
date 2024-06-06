@@ -2,19 +2,22 @@ import { ComponentStyleConfig } from '@chakra-ui/react';
 
 export default {
   baseStyle: {
-    textTransform: 'uppercase',
     borderRadius: 0,
     fontFamily: 'DM Sans Variable',
-    letterSpacing: 'widest',
     fontWeight: 'normal',
+    letterSpacing: 'widest',
     lineHeight: 1,
+    textTransform: 'uppercase',
+  },
+  defaultProps: {
+    colorScheme: 'yellow',
   },
   sizes: {
-    md: {
-      px: '6',
-    },
     lg: {
       px: '12',
+    },
+    md: {
+      px: '6',
     },
   },
   variants: {
@@ -29,8 +32,5 @@ export default {
       color: colorMode === 'dark' ? `${colorScheme}.500` : 'gray.600',
       borderColor: `${colorScheme}.500`,
     }),
-  },
-  defaultProps: {
-    colorScheme: 'yellow',
   },
 } as ComponentStyleConfig;

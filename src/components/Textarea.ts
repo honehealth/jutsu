@@ -2,10 +2,10 @@ import { ComponentStyleConfig } from '@chakra-ui/react';
 
 export default {
   variants: {
-    outline: {
+    filled: {
       borderRadius: 0,
     },
-    filled: {
+    outline: {
       borderRadius: 0,
     },
   },

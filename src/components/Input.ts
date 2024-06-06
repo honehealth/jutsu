@@ -3,22 +3,22 @@ import { ComponentStyleConfig } from '@chakra-ui/react';
 export default {
   parts: ['field'],
   variants: {
-    outline: {
+    filled: {
       field: {
         borderRadius: 0,
+      },
+    },
+    outline: {
+      field: {
         borderColor: 'gray.600',
+        borderRadius: 0,
         _disabled: {
-          opacity: 1,
           color: 'gray.400',
+          opacity: 1,
         },
         _hover: {
           borderColor: 'gray.600',
         }
-      },
-    },
-    filled: {
-      field: {
-        borderRadius: 0,
       },
     },
   },
