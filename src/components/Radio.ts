@@ -12,8 +12,8 @@ export default {
         bg: 'transparent',
         _before: {
           bg: mode(
-            `${props.colorScheme}.500`,
-            `${props.colorScheme}.200`
+            `${props.colorScheme}.default`,
+            `${props.colorScheme}.depressed`
           )(props),
           h: '80%',
           w: '80%',

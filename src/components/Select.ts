@@ -14,13 +14,13 @@ export default {
     outline: {
       field: {
         borderRadius: 0,
-        borderColor: 'gray.600',
+        borderColor: 'grayDark.default',
         _disabled: {
-          color: 'gray.400',
+          color: 'grayMid.default',
           opacity: 1,
         },
         _hover: {
-          borderColor: 'gray.600',
+          borderColor: 'grayDark.default',
         },
       },
     },

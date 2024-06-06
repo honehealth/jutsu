@@ -4,23 +4,23 @@ export default {
   baseStyle: ({ colorScheme }) => ({
     container: {
       borderWidth: '1px',
-      borderColor: `${colorScheme}.500`,
+      borderColor: `${colorScheme}.default`,
     },
   }),
   parts: ['container', 'icon'],
   variants: {
     subtle: ({ colorScheme }) => ({
       container: {
-        bgColor: `${colorScheme}.50`,
+        bgColor: `${colorScheme}.default`,
       },
     }),
     solid: ({ colorScheme }) => ({
       container: {
-        bgColor: `${colorScheme}.50`,
+        bgColor: `${colorScheme}.default`,
         color: 'black',
       },
       icon: {
-        color: `${colorScheme}.500`,
+        color: `${colorScheme}.default`,
       },
     }),
   },

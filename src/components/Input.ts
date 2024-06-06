@@ -10,14 +10,14 @@ export default {
     },
     outline: {
       field: {
-        borderColor: 'gray.600',
+        borderColor: 'grayDark.default',
         borderRadius: 0,
         _disabled: {
-          color: 'gray.400',
+          color: 'grayMid.default',
           opacity: 1,
         },
         _hover: {
-          borderColor: 'gray.600',
+          borderColor: 'grayDark.default',
         }
       },
     },

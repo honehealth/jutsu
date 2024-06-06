@@ -11,10 +11,16 @@ export default {
   brand: yellow,
   white: '#fcfcfa',
   whitePure: '#ffffff',
-  red: '#f52c5e',
-  orange: '#f6752d',
+  red: {
+    default: '#f52c5e',
+  },
+  orange: {
+    default: '#f6752d',
+  },
   yellow,
-  green: '#4ff8a2',
+  green: {
+    default: '#4ff8a2'
+  },
   grayLight: '#f1f0ef',
   grayMid: {
     default: '#d2cec4',

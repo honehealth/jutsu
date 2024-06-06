@@ -22,15 +22,15 @@ export default {
   },
   variants: {
     solid: ({ colorScheme }) => ({
-      bg: `${colorScheme}.500`,
+      bg: `${colorScheme}.default`,
       _hover: {
         bg: 'black',
         color: 'white',
       },
     }),
     outline: ({ colorMode, colorScheme }) => ({
-      color: colorMode === 'dark' ? `${colorScheme}.500` : 'gray.600',
-      borderColor: `${colorScheme}.500`,
+      color: colorMode === 'dark' ? `${colorScheme}.default` : 'grayDark.default',
+      borderColor: `${colorScheme}.default`,
     }),
   },
 } as ComponentStyleConfig;

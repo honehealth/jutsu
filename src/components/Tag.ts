@@ -30,10 +30,10 @@ export default {
   variants: {
     solid: ({ colorScheme }) => ({
       container: {
-        backgroundColor: `${colorScheme}.50`,
+        backgroundColor: 'white',
         border: '1px',
-        borderColor: `${colorScheme}.500`,
-        color: colorScheme === 'gray' ? 'gray.700' : 'black',
+        borderColor: `${colorScheme}.default`,
+        color: colorScheme === 'gray' ? 'grayDark.default' : 'black.default',
         fontWeight: 'normal',
       },
     }),

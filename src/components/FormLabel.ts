@@ -2,7 +2,7 @@ import { ComponentStyleConfig } from '@chakra-ui/react';
 
 export default {
   baseStyle: {
-    color: 'gray.600',
+    color: 'grayDark.default',
     fontWeight: 'light',
     letterSpacing: '0.1rem',
   },
