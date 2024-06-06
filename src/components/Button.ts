@@ -4,7 +4,7 @@ export default {
   baseStyle: {
     textTransform: 'uppercase',
     borderRadius: 0,
-    fontFamily: 'Montserrat Variable',
+    fontFamily: 'DM Sans Variable',
     letterSpacing: 'widest',
     fontWeight: 'normal',
     lineHeight: 1,

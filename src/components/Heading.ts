@@ -2,7 +2,7 @@ import { ComponentStyleConfig } from '@chakra-ui/react';
 
 export default {
   baseStyle: {
-    fontFamily: 'Montserrat Variable',
+    fontFamily: 'DM Sans Variable',
   },
   sizes: {
     xs: {
