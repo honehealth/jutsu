@@ -9,11 +9,6 @@ export default {
   }),
   parts: ['container', 'icon'],
   variants: {
-    subtle: ({ colorScheme }) => ({
-      container: {
-        bgColor: `${colorScheme}.default`,
-      },
-    }),
     solid: ({ colorScheme }) => ({
       container: {
         bgColor: `${colorScheme}.default`,
@@ -21,6 +16,11 @@ export default {
       },
       icon: {
         color: `${colorScheme}.default`,
+      },
+    }),
+    subtle: ({ colorScheme }) => ({
+      container: {
+        bgColor: `${colorScheme}.default`,
       },
     }),
   },

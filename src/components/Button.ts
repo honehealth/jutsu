@@ -21,16 +21,16 @@ export default {
     },
   },
   variants: {
+    outline: ({ colorMode, colorScheme }) => ({
+      borderColor: `${colorScheme}.default`,
+      color: colorMode === 'dark' ? `${colorScheme}.default` : 'grayDark.default',
+    }),
     solid: ({ colorScheme }) => ({
       bg: `${colorScheme}.default`,
       _hover: {
         bg: 'black',
         color: 'white',
       },
-    }),
-    outline: ({ colorMode, colorScheme }) => ({
-      color: colorMode === 'dark' ? `${colorScheme}.default` : 'grayDark.default',
-      borderColor: `${colorScheme}.default`,
     }),
   },
 } as ComponentStyleConfig;

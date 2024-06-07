@@ -5,52 +5,47 @@ export default {
     fontFamily: 'DM Sans Variable',
   },
   sizes: {
+    xxs: {
+      fontSize: '11px',
+      fontWeight: 'bold',
+      letterSpacing: '-2%',
+      lineHeight: '100%',
+    },
     xs: {
-      fontSize: '1rem',
-      fontWeight: 'light',
-      lineHeight: '1',
+      fontSize: '14px',
+      fontWeight: 'bold',
+      letterSpacing: '-2%',
+      lineHeight: '100%',
     },
     sm: {
-      fontSize: '1.25rem',
-      fontWeight: 'normal',
-      letterSpacing: '0.05rem',
-      lineHeight: '1.2',
+      fontSize: '16px',
+      fontWeight: 'regular',
+      letterSpacing: '-2%',
+      lineHeight: '100%',
     },
     md: {
-      fontSize: '1.5rem',
-      fontWeight: 'normal',
-      letterSpacing: '0.05rem',
-      lineHeight: '1.2',
+      fontSize: '18px',
+      fontWeight: 'medium',
+      letterSpacing: '-2%',
+      lineHeight: '100%',
     },
     lg: {
-      fontSize: '1.5rem',
-      fontWeight: 'light',
-      letterSpacing: '0.05rem',
+      fontSize: '22px',
+      fontWeight: 'medium',
       lineHeight: '1.2',
+      letterSpacing: '0.05rem',
     },
     xl: {
-      fontSize: '2rem',
-      fontWeight: 'light',
-      letterSpacing: '0.05rem',
-      lineHeight: '1.2',
+      fontSize: '28px',
+      fontWeight: 'regular',
+      letterSpacing: '-2%',
+      lineHeight: '100%',
     },
-  },
-  variants: {
-    title: ({ size }) => {
-      let fontSize = '1rem';
-
-      if (size === 'sm') {
-        fontSize = '0.75rem';
-      } else if (size === 'lg') {
-        fontSize = '1.25rem';
-      }
-
-      return {
-        fontSize,
-        fontWeight: 'normal',
-        letterSpacing: '0.20rem',
-        textTransform: 'uppercase',
-      };
+    xxl: {
+      fontSize: '32px',
+      fontWeight: 'regular',
+      letterSpacing: '-2%',
+      lineHeight: '100%',
     },
   },
 } as ComponentStyleConfig;
