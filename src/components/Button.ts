@@ -27,9 +27,12 @@ export default {
     }),
     solid: ({ colorScheme }) => ({
       bg: `${colorScheme}.default`,
+      color: 'black.default',
+      _active: {
+        bg: `${colorScheme}.depressed`,
+      },
       _hover: {
-        bg: 'black',
-        color: 'white',
+        bg: `${colorScheme}.hover`,
       },
     }),
   },
