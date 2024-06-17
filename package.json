@@ -1,6 +1,6 @@
 {
   "name": "@honehealth/jutsu",
-  "version": "2.0.0-rc.1",
+  "version": "2.0.1-rc.1",
   "author": "Hone Health <info@honehealth.com>",
   "repository": {
     "type": "git",
@@ -35,9 +35,9 @@
     "@chakra-ui/react": "^2.8.2",
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
-    "@fontsource-variable/azeret-mono": "^5.0.0",
-    "@fontsource-variable/dm-sans": "^5.0.0",
-    "@fontsource-variable/stix-two-text": "^5.0.0",
+    "@fontsource/azeret-mono": "^5.0.0",
+    "@fontsource/dm-sans": "^5.0.0",
+    "@fontsource/stix-two-text": "^5.0.0",
     "framer-motion": "^10.x",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
