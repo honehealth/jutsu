@@ -3,10 +3,11 @@ import { ComponentStyleConfig } from '@chakra-ui/react';
 export default {
   baseStyle: {
     borderRadius: 0,
-    fontFamily: 'DM Sans',
+    fontFamily: 'DM Sans Variable',
     fontWeight: 'normal',
     letterSpacing: 'widest',
     lineHeight: 1,
+    textTrasform: 'capitalize',
   },
   defaultProps: {
     colorScheme: 'yellow',
