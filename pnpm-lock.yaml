@@ -12,13 +12,13 @@ dependencies:
     specifier: ^2.0.11
     version: 2.0.11(@chakra-ui/styled-system@2.3.3)
   '@fontsource-variable/azeret-mono':
-    specifier: ^5.0.0
+    specifier: ^5.0.21
     version: 5.0.21
   '@fontsource-variable/dm-sans':
-    specifier: ^5.0.0
+    specifier: ^5.0.6
     version: 5.0.6
   '@fontsource-variable/stix-two-text':
-    specifier: ^5.0.0
+    specifier: ^5.0.21
     version: 5.0.21
 
 devDependencies:
