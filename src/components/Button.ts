@@ -5,7 +5,6 @@ export default {
     borderRadius: 0,
     fontFamily: 'DM Sans Variable',
     fontWeight: 'normal',
-    letterSpacing: 'widest',
     lineHeight: 1,
     textTrasform: 'capitalize',
   },
