@@ -6,8 +6,8 @@ export default extendTheme({
   colors,
   components,
   fonts: {
-    heading: 'DM Sans Variable',
     body: 'DM Sans Variable',
+    heading: 'STIX Two Text Variable',
   },
   initialColorMode: 'light',
   letterSpacings: {

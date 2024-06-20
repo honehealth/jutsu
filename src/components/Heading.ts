@@ -2,7 +2,7 @@ import { ComponentStyleConfig } from '@chakra-ui/react';
 
 export default {
   baseStyle: {
-    fontFamily: 'DM Sans Variable',
+    fontFamily: 'STIX Two Text Variable',
   },
   sizes: {
     xxs: {
