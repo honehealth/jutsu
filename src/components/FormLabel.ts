@@ -4,6 +4,6 @@ export default {
   baseStyle: {
     color: 'grayDark.default',
     fontWeight: 'light',
-    marginRight: '12px',
+    marginLeft: '12px',
   },
 } as ComponentStyleConfig;
