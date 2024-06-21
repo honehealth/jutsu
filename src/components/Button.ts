@@ -20,10 +20,18 @@ export default {
     },
   },
   variants: {
-    outline: ({ colorMode, colorScheme }) => ({
-      borderColor: `${colorScheme}.default`,
-      color: colorMode === 'dark' ? `${colorScheme}.default` : 'grayDark.default',
-    }),
+    outline: {
+      border: 'black.default',
+      color: 'black.default',
+      background: 'white',
+      _hover: {
+        background: 'black.lighter',
+      },
+      _active: {
+        color: 'white',
+        background: 'black.default',
+      },
+    },
     solid: ({ colorScheme }) => ({
       bg: `${colorScheme}.default`,
       color: 'black.default',
