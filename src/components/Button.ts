@@ -32,7 +32,13 @@ export default {
       },
       _hover: {
         bg: `${colorScheme}.hover`,
+        _disabled: {
+          background: `${colorScheme}.default`,
+        }
       },
+      _disabled: {
+        background: `${colorScheme}.default`,
+      }
     }),
   },
 } as ComponentStyleConfig;
