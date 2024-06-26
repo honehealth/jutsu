@@ -2,7 +2,7 @@ import { ComponentStyleConfig } from '@chakra-ui/react';
 
 export default {
   baseStyle: {
-    borderRadius: 0,
+    borderRadius: '2px',
     fontFamily: 'DM Sans Variable',
     fontWeight: 'normal',
     lineHeight: 1,
@@ -21,19 +21,20 @@ export default {
   },
   variants: {
     outline: {
-      border: 'black.default',
+      background: 'transparent',
+      border: '1 px black.default',
+      _active: {
+        background: 'black.default',
+        color: 'white',
+      },
       color: 'black.default',
-      background: 'white',
       _hover: {
         background: 'black.lighter',
-      },
-      _active: {
-        color: 'white',
-        background: 'black.default',
       },
     },
     solid: ({ colorScheme }) => ({
       bg: `${colorScheme}.default`,
+      borderColor: colorScheme === 'yellow' ? '#0e0b2033' : 'black.default',
       color: 'black.default',
       _active: {
         bg: `${colorScheme}.depressed`,
@@ -42,10 +43,12 @@ export default {
         bg: `${colorScheme}.hover`,
         _disabled: {
           background: `${colorScheme}.default`,
+          border: 'none',
         }
       },
       _disabled: {
         background: `${colorScheme}.default`,
+        border: 'none',
       }
     }),
   },

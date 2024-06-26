@@ -2,7 +2,7 @@ import { ComponentStyleConfig } from '@chakra-ui/react';
 
 export default {
   baseStyle: {
-    fontFamily: 'STIX Two Text Variable',
+    fontFamily: 'DM Sans Variable',
   },
   sizes: {
     xxs: {
@@ -46,6 +46,7 @@ export default {
       fontWeight: 'regular',
       letterSpacing: '-2%',
       lineHeight: '100%',
+      marginBottom: '32px',
     },
   },
 } as ComponentStyleConfig;
