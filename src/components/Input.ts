@@ -1,6 +1,9 @@
 import { ComponentStyleConfig } from '@chakra-ui/react';
 
 export default {
+  baseStyle: {
+    background: 'whitePure',
+  },
   parts: ['field'],
   variants: {
     filled: {
