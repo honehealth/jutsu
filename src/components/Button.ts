@@ -22,7 +22,8 @@ export default {
   variants: {
     outline: {
       background: 'transparent',
-      border: '1 px black.default',
+      border: '1px solid',
+      borderColor: 'black.default',
       _active: {
         background: 'black.default',
         color: 'white',
@@ -34,6 +35,7 @@ export default {
     },
     solid: ({ colorScheme }) => ({
       bg: `${colorScheme}.default`,
+      border: '1px solid',
       borderColor: colorScheme === 'yellow' ? '#0e0b2033' : 'black.default',
       color: 'black.default',
       _active: {
