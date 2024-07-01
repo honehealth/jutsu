@@ -15,7 +15,7 @@ export default {
         color: 'black',
       },
       icon: {
-        color: `${colorScheme}.default`,
+        color: 'black',
       },
     }),
     subtle: ({ colorScheme }) => ({
