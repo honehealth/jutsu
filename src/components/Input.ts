@@ -13,7 +13,7 @@ export default {
     },
     outline: {
       field: {
-        borderColor: 'grayDark.default',
+        borderColor: '#cfced2',
         borderRadius: 0,
         _disabled: {
           color: 'grayMid.default',
