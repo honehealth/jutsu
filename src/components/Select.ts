@@ -14,7 +14,7 @@ export default {
     outline: {
       field: {
         borderRadius: 0,
-        borderColor: 'grayDark.default',
+        borderColor: '#cfced2',
         _disabled: {
           color: 'grayMid.default',
           opacity: 1,
