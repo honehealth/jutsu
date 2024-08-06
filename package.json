@@ -43,6 +43,7 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "build": "tsc",
+    "lint:fix": "prettier --write \"./src/**/*.ts(x)?\"",
     "prepublish": "pnpm build"
   },
   "dependencies": {

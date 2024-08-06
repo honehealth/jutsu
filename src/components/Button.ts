@@ -46,12 +46,12 @@ export default {
         _disabled: {
           background: `${colorScheme}.default`,
           border: 'none',
-        }
+        },
       },
       _disabled: {
         background: `${colorScheme}.default`,
         border: 'none',
-      }
+      },
     }),
   },
 } as ComponentStyleConfig;

@@ -19,7 +19,7 @@ export default {
   },
   yellow,
   green: {
-    default: '#4ff8a2'
+    default: '#4ff8a2',
   },
   grayLight: '#f1f0ef',
   grayMid: {

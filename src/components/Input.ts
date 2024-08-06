@@ -21,7 +21,7 @@ export default {
         },
         _hover: {
           borderColor: 'grayDark.default',
-        }
+        },
       },
     },
   },
