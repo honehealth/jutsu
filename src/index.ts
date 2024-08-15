@@ -1,15 +1,15 @@
 import { extendTheme, theme as baseTheme, ThemeConfig } from '@chakra-ui/react';
-
 import colors from './colors';
 import components from './components';
 
-const theme: Record<string, any> = extendTheme({
+export default extendTheme({
   colors,
   components,
   fonts: {
-    heading: 'Montserrat Variable',
-    body: 'Inter Variable',
+    body: 'DM Sans Variable',
+    heading: 'DM Sans Variable',
   },
+  initialColorMode: 'light',
   letterSpacings: {
     wide: '0.05rem',
     wider: '0.10rem',
@@ -18,12 +18,9 @@ const theme: Record<string, any> = extendTheme({
   sizes: {
     ...baseTheme.space,
     screen: {
-      width: '100vw',
       height: '100vh',
+      width: '100vw',
     },
   },
-  initialColorMode: 'light',
   useSystemColorMode: false,
 } as ThemeConfig);
-
-export default theme;

@@ -1,18 +1,18 @@
 import { ComponentStyleConfig } from '@chakra-ui/react';
 
 export default {
-  parts: ['control'],
   baseStyle: {
     control: {
       borderRadius: '0',
       borderWidth: '2px',
     },
   },
+  parts: ['control'],
   sizes: {
-    sm: {
+    lg: {
       control: {
-        height: '4',
-        width: '4',
+        height: '6',
+        width: '6',
       },
     },
     md: {
@@ -21,10 +21,10 @@ export default {
         width: '6',
       },
     },
-    lg: {
+    sm: {
       control: {
-        height: '6',
-        width: '6',
+        height: '4',
+        width: '4',
       },
     },
   },

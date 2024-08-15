@@ -1,41 +1,41 @@
 import { ComponentStyleConfig } from '@chakra-ui/react';
 
 export default {
-  parts: ['container'],
   baseStyle: {
     container: {
       letterSpacing: '0.1rem',
     },
   },
-  variants: {
-    solid: ({ colorScheme }) => ({
-      container: {
-        border: '1px',
-        borderColor: `${colorScheme}.500`,
-        backgroundColor: `${colorScheme}.50`,
-        color: colorScheme === 'gray' ? 'gray.700' : 'black',
-        fontWeight: 'normal',
-      },
-    }),
-  },
+  parts: ['container'],
   sizes: {
     sm: {
       container: {
-        px: 2,
         borderRadius: 'xl',
+        px: 2,
       },
     },
     md: {
       container: {
-        px: 3,
         borderRadius: 'xl',
+        px: 3,
       },
     },
     lg: {
       container: {
-        px: 4,
         borderRadius: '2xl',
+        px: 4,
       },
     },
+  },
+  variants: {
+    solid: ({ colorScheme }) => ({
+      container: {
+        backgroundColor: 'white',
+        border: '1px',
+        borderColor: `${colorScheme}.default`,
+        color: colorScheme === 'gray' ? 'grayDark.default' : 'black.default',
+        fontWeight: 'normal',
+      },
+    }),
   },
 } as ComponentStyleConfig;

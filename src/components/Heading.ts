@@ -2,45 +2,58 @@ import { ComponentStyleConfig } from '@chakra-ui/react';
 
 export default {
   baseStyle: {
-    fontFamily: 'Montserrat Variable',
+    fontFamily: 'DM Sans Variable',
   },
   sizes: {
+    '2xs': {
+      fontSize: '11px',
+      fontWeight: 'bold',
+      letterSpacing: '-2%',
+      lineHeight: '100%',
+    },
     xs: {
-      fontWeight: 'light',
-      fontSize: '1rem',
-      lineHeight: '1',
+      fontSize: '14px',
+      fontWeight: 'bold',
+      letterSpacing: '-2%',
+      lineHeight: '100%',
     },
     sm: {
-      fontWeight: 'normal',
-      fontSize: '1.25rem',
-      letterSpacing: '0.05rem',
-      lineHeight: '1.2',
+      fontSize: '16px',
+      fontWeight: 'regular',
+      letterSpacing: '-2%',
+      lineHeight: '100%',
     },
     md: {
-      fontWeight: 'normal',
-      fontSize: '1.5rem',
-      letterSpacing: '0.05rem',
-      lineHeight: '1.2',
+      fontSize: '18px',
+      fontWeight: 'medium',
+      letterSpacing: '-2%',
+      lineHeight: '100%',
     },
     lg: {
-      fontWeight: 'light',
-      fontSize: '1.5rem',
-      letterSpacing: '0.05rem',
+      fontSize: '22px',
+      fontWeight: 'medium',
       lineHeight: '1.2',
+      letterSpacing: '0.05rem',
     },
     xl: {
-      fontWeight: 'light',
-      fontSize: '2rem',
-      letterSpacing: '0.05rem',
-      lineHeight: '1.2',
+      fontSize: '28px',
+      fontWeight: 'regular',
+      letterSpacing: '-2%',
+      lineHeight: '100%',
+    },
+    '2xl': {
+      fontSize: '32px',
+      fontWeight: 'regular',
+      letterSpacing: '-2%',
+      lineHeight: '100%',
+      marginBottom: '32px',
     },
   },
   variants: {
-    title: ({ size }) => ({
-      fontSize: size === 'sm' ? '0.75rem' : size === 'lg' ? '1.25rem' : '1rem',
-      fontWeight: 'normal',
-      textTransform: 'uppercase',
-      letterSpacing: '0.20rem',
-    }),
+    heading: {},
+    display: {
+      fontFamily: 'STIX Two Text Variable, Times',
+      fontWeight: 400,
+    },
   },
 } as ComponentStyleConfig;

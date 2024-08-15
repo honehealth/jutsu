@@ -11,12 +11,15 @@ dependencies:
   '@chakra-ui/theme-tools':
     specifier: ^2.0.11
     version: 2.0.11(@chakra-ui/styled-system@2.3.3)
-  '@fontsource-variable/inter':
-    specifier: ^5.0.0
-    version: 5.0.0
-  '@fontsource-variable/montserrat':
-    specifier: ^5.0.0
-    version: 5.0.0
+  '@fontsource-variable/azeret-mono':
+    specifier: ^5.0.21
+    version: 5.0.21
+  '@fontsource-variable/dm-sans':
+    specifier: ^5.0.6
+    version: 5.0.6
+  '@fontsource-variable/stix-two-text':
+    specifier: ^5.0.21
+    version: 5.0.21
 
 devDependencies:
   '@babel/core':
@@ -3712,6 +3715,7 @@ packages:
 
   /@emotion/memoize@0.7.4:
     resolution: {integrity: sha512-Ja/Vfqe3HpuzRsG1oBtWTHk2PGZ7GR+2Vz5iYGelAw8dx32K0y7PjVuxK6z1nMpZOqAFsRUPCkK1YjJ56qJlgw==}
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -3995,12 +3999,16 @@ packages:
     resolution: {integrity: sha512-cEee/Z+I12mZcFJshKcCqC8tuX5hG3s+d+9nZ3LabqKF1vKdF41B92pJVCBggjAGORAeOzyyDDKrZwIkLffeOQ==}
     dev: true
 
-  /@fontsource-variable/inter@5.0.0:
-    resolution: {integrity: sha512-FVsO59CpR/LDXyneKKgFhlT5lux6T4671w1aJWnVA4vJpe9JlKrw7ducuyE02Pk7dzIK+3yS6sybIJxiSMF+1w==}
+  /@fontsource-variable/azeret-mono@5.0.21:
+    resolution: {integrity: sha512-0DJ4VnrcoA1PKl51Wh3qHhmLjM23YpbMoO1Hb61s6AFzfGvk23ATgOiNbbZo+g+OMJR5jpJ6KEJni8E6DVrUog==}
     dev: false
 
-  /@fontsource-variable/montserrat@5.0.0:
-    resolution: {integrity: sha512-xFqNFQ1CB6m0Lq5n6V9SazUCSJFTyXt979TEAqQeLQ3KoR6r5/vwzYsvGduBpsieNsf9asZOLuWawtsL1PNXMA==}
+  /@fontsource-variable/dm-sans@5.0.6:
+    resolution: {integrity: sha512-+CNVseJRlYGB4gUZ2L7yTeCHHBKAMVVhqUz85nb/OoU0hketJrWCHOUJwF5W2MpZCeE0JqJmDFAsEdx8znkrGw==}
+    dev: false
+
+  /@fontsource-variable/stix-two-text@5.0.21:
+    resolution: {integrity: sha512-gUs7bfpOn7/RogNYBeVjBVzEHdpDC/DIMCQ/+0Z1oc7b4QPUdXEfibMwpuHhMfwVU3pfM06iRvO+uqGw0zfEAg==}
     dev: false
 
   /@isaacs/cliui@8.0.2:

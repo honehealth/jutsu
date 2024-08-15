@@ -1,24 +1,28 @@
 import { ComponentStyleConfig } from '@chakra-ui/react';
 
 export default {
+  baseStyle: {
+    background: 'whitePure',
+    color: 'black.depressed',
+  },
   parts: ['field'],
   variants: {
-    outline: {
-      field: {
-        borderRadius: 0,
-        borderColor: 'gray.600',
-        _disabled: {
-          opacity: 1,
-          color: 'gray.400',
-        },
-        _hover: {
-          borderColor: 'gray.600',
-        }
-      },
-    },
     filled: {
       field: {
-        borderRadius: 0,
+        borderRadius: 2,
+      },
+    },
+    outline: {
+      field: {
+        borderColor: 'black.light',
+        borderRadius: 2,
+        _disabled: {
+          color: 'black.light',
+          opacity: 1,
+        },
+        _hover: {
+          borderColor: 'black.light',
+        },
       },
     },
   },

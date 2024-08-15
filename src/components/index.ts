@@ -1,27 +1,27 @@
 import { ComponentStyleConfig } from '@chakra-ui/react';
 
+import Alert from './Alert';
 import Button from './Button';
 import Checkbox from './Checkbox';
-import Heading from './Heading';
-import Text from './Text';
-import Input from './Input';
-import Tag from './Tag';
 import FormLabel from './FormLabel';
-import Select from './Select';
-import Textarea from './Textarea';
-import Alert from './Alert';
+import Heading from './Heading';
+import Input from './Input';
 import Radio from './Radio';
+import Select from './Select';
+import Tag from './Tag';
+import Text from './Text';
+import Textarea from './Textarea';
 
 export default {
+  Alert,
   Button,
   Checkbox,
-  Heading,
-  Text,
-  Input,
-  Tag,
   FormLabel,
-  Select,
-  Textarea,
-  Alert,
+  Heading,
+  Input,
   Radio,
+  Select,
+  Tag,
+  Text,
+  Textarea,
 } as Record<string, ComponentStyleConfig>;

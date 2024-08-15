@@ -1,6 +1,6 @@
 {
   "name": "@honehealth/jutsu",
-  "version": "1.5.2",
+  "version": "2.0.0",
   "author": "Hone Health <info@honehealth.com>",
   "repository": {
     "type": "git",
@@ -35,8 +35,6 @@
     "@chakra-ui/react": "^2.8.2",
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
-    "@fontsource-variable/inter": "^5.0.0",
-    "@fontsource-variable/montserrat": "^5.0.0",
     "framer-motion": "^10.x",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
@@ -45,10 +43,14 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "build": "tsc",
+    "lint:fix": "prettier --write \"./src/**/*.ts(x)?\"",
     "prepublish": "pnpm build"
   },
   "dependencies": {
     "@chakra-ui/styled-system": "^2.3.3",
-    "@chakra-ui/theme-tools": "^2.0.11"
+    "@chakra-ui/theme-tools": "^2.0.11",
+    "@fontsource-variable/azeret-mono": "^5.0.21",
+    "@fontsource-variable/dm-sans": "^5.0.6",
+    "@fontsource-variable/stix-two-text": "^5.0.21"
   }
 }
