@@ -8,19 +8,19 @@ export default {
   variants: {
     filled: {
       field: {
-        borderRadius: 0,
+        borderRadius: 2,
       },
     },
     outline: {
       field: {
-        borderRadius: 0,
-        borderColor: 'grayDark.default',
+        borderRadius: 2,
+        borderColor: 'black.light',
         _disabled: {
-          color: 'grayMid.default',
+          color: 'black.light',
           opacity: 1,
         },
         _hover: {
-          borderColor: 'grayDark.default',
+          borderColor: 'black.light',
         },
       },
     },
