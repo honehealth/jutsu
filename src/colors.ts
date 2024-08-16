@@ -1,7 +1,7 @@
 import { theme } from '@chakra-ui/react';
 
 const yellow = {
-  default: '#f8f940',
+  default: '#F8F93F',
   hover: '#edee3a',
   pressed: '#e1e25e',
 };
