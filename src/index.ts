@@ -22,5 +22,15 @@ export default extendTheme({
       width: '100vw',
     },
   },
+  shadows: {
+    ...baseTheme.shadows,
+    xs: '0px 2px 4px 0px rgba(234, 234, 234, 0.1)',
+    sm: '0px 2px 8px 0px rgba(234, 234, 234, 0.2)',
+    base: '0px 4px 16px 0px rgba(234, 234, 234, 0.25)',
+    md: '0px 4px 16px 0px rgba(234, 234, 234, 0.25)',
+    lg: '0px 8px 18px 0px rgba(234, 234, 234, 0.25)',
+    xl: '0px 6px 20px 0px rgba(234, 234, 234, 0.35)',
+    '2xl': '0px 6px 24px 0px rgba(234, 234, 234, 0.35)',
+  },
   useSystemColorMode: false,
 } as ThemeConfig);
