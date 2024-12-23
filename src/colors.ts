@@ -13,13 +13,15 @@ export default {
   whitePure: '#ffffff',
   red: {
     default: '#f52c5e',
+    background: "#ffeaef"
   },
   orange: {
     default: '#f6752d',
   },
   yellow,
   green: {
-    default: '#4ff8a2',
+    default: '#1e9c5b', 
+    background: "#cbf2df",
   },
   grayLight: '#f1f0ef',
   grayMid: {

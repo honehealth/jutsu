@@ -11,11 +11,15 @@ export default {
   variants: {
     solid: ({ colorScheme }) => ({
       container: {
-        bgColor: `${colorScheme}.default`,
+        bgColor: `${colorScheme}.background`,
         color: 'black',
       },
       icon: {
-        color: 'black',
+        color: `${colorScheme}.background`,
+        bgColor:`${colorScheme}.default`,
+        borderRadius: '10px',
+        p:'1px',
+        h: "20px"
       },
     }),
     subtle: ({ colorScheme }) => ({
