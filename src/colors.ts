@@ -13,7 +13,7 @@ export default {
   whitePure: '#ffffff',
   red: {
     default: '#f52c5e',
-    background: "#ffeaef"
+    light: "#ffeaef"
   },
   orange: {
     default: '#f6752d',
@@ -21,7 +21,7 @@ export default {
   yellow,
   green: {
     default: '#1e9c5b', 
-    background: "#cbf2df",
+    light: "#cbf2df",
   },
   grayLight: '#f1f0ef',
   grayMid: {
