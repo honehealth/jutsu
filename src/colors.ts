@@ -41,7 +41,7 @@ export default {
     lightest: '#f4f4f2',
   },
   black: {
-    default: '#0e0b20',
+    default: '#202020',
     hover: '#3e3b4c',
     depressed: '#6d6b77',
     light: '#ccccce',
