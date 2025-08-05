@@ -13,15 +13,15 @@ export default {
   whitePure: '#ffffff',
   red: {
     default: '#f52c5e',
-    light: "#ffeaef"
+    light: '#ffeaef',
   },
   orange: {
     default: '#f6752d',
   },
   yellow,
   green: {
-    default: '#1e9c5b', 
-    light: "#cbf2df",
+    default: '#1e9c5b',
+    light: '#cbf2df',
   },
   grayLight: '#f1f0ef',
   grayMid: {
@@ -33,7 +33,7 @@ export default {
     lightest: '#fafaf7',
   },
   grayDark: {
-    default: '#605b52',
+    default: '#6D6D6D',
     hover: '#7f7b74',
     depressed: '#9e9b95',
     light: '#dddcd8',
