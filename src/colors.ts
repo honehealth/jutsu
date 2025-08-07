@@ -93,7 +93,7 @@ const white = {
   100: '#FFFFFF',
 };
 
-const black = {
+const blackTransparent = {
   10: '#0000001A',
   30: '#0000004D',
   50: '#00000080',
@@ -105,6 +105,14 @@ export default {
   ...theme.colors,
 
   // Legacy
+  black: {
+    default: gray[100],
+    hover: '#3e3b4c',
+    depressed: '#6d6b77',
+    light: '#ccccce',
+    lighter: '#e4e4e4',
+    lightest: '#f0f0ef',
+  },
   whitePure: '#FFFFFF',
   grayLight: '#f1f0ef',
   grayMid: {
@@ -116,7 +124,7 @@ export default {
     lightest: '#fafaf7',
   },
   grayDark: {
-    default: '#605b52',
+    default: gray[60],
     hover: '#7f7b74',
     depressed: '#9e9b95',
     light: '#dddcd8',
@@ -129,7 +137,7 @@ export default {
     yellow: yellow[50],
     black: gray[100],
     gray: '#F4F4F4',
-    white: '#FFFFFF',
+    white: white[100],
   },
   yellow,
   blue,
@@ -138,5 +146,6 @@ export default {
   red,
   purple,
   white,
-  black,
+
+  blackTransparent,
 };
