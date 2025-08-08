@@ -18,7 +18,7 @@
   "types": "./lib/index.d.ts",
   "devDependencies": {
     "@babel/core": "^7.17.8",
-    "@chakra-ui/react": "^2.8.2",
+    "@chakra-ui/react": "^2.10.7",
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
     "@mdx-js/react": "^3.0.0",
@@ -33,11 +33,11 @@
     "react-dom": "^18.0.0",
     "rollup": "^2.70.1",
     "storybook": "^7.6.0",
-    "typescript": "~4.5.5",
+    "typescript": "~5.8.3",
     "webpack": "^5.68.0"
   },
   "peerDependencies": {
-    "@chakra-ui/react": "^2.8.2",
+    "@chakra-ui/react": "^2.10.7",
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
     "framer-motion": "^10.x",
