@@ -146,6 +146,5 @@ export default {
   red,
   purple,
   white,
-
   blackTransparent,
 };
