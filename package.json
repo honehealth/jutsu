@@ -9,6 +9,11 @@
   "files": [
     "lib"
   ],
+  "packageManager": "pnpm@10.13.1",
+  "engines": {
+    "node": ">=22.17.1 <23",
+    "pnpm": ">=10 <11"
+  },
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "devDependencies": {
