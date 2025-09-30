@@ -6,8 +6,8 @@ export default extendTheme({
   colors,
   components,
   fonts: {
-    body: 'DM Sans Variable',
-    heading: 'DM Sans Variable',
+    body: 'DM Sans',
+    heading: 'DM Sans',
   },
   initialColorMode: 'light',
   letterSpacings: {

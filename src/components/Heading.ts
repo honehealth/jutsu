@@ -2,7 +2,7 @@ import { ComponentStyleConfig } from '@chakra-ui/react';
 
 export default {
   baseStyle: {
-    fontFamily: 'DM Sans Variable',
+    fontFamily: 'DM Sans',
   },
   sizes: {
     '2xs': {
@@ -52,7 +52,7 @@ export default {
   variants: {
     heading: {},
     display: {
-      fontFamily: 'STIX Two Text Variable, Times',
+      fontFamily: 'STIX Two Text, Times',
       fontWeight: 400,
     },
   },
