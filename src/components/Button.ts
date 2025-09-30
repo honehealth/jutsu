@@ -3,7 +3,7 @@ import { ComponentStyleConfig } from '@chakra-ui/react';
 export default {
   baseStyle: {
     borderRadius: '2px',
-    fontFamily: 'DM Sans Variable',
+    fontFamily: 'DM Sans',
     fontWeight: 'normal',
     lineHeight: 1,
     textTrasform: 'capitalize',

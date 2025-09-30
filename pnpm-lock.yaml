@@ -14,15 +14,6 @@ importers:
       '@chakra-ui/theme-tools':
         specifier: ^2.0.11
         version: 2.2.6(@chakra-ui/styled-system@2.12.0(react@18.3.1))(react@18.3.1)
-      '@fontsource-variable/azeret-mono':
-        specifier: ^5.0.21
-        version: 5.2.9
-      '@fontsource-variable/dm-sans':
-        specifier: ^5.0.6
-        version: 5.2.6
-      '@fontsource-variable/stix-two-text':
-        specifier: ^5.0.21
-        version: 5.2.6
     devDependencies:
       '@babel/core':
         specifier: ^7.17.8
@@ -913,15 +904,6 @@ packages:
 
   '@fal-works/esbuild-plugin-global-externals@2.1.2':
     resolution: {integrity: sha512-cEee/Z+I12mZcFJshKcCqC8tuX5hG3s+d+9nZ3LabqKF1vKdF41B92pJVCBggjAGORAeOzyyDDKrZwIkLffeOQ==}
-
-  '@fontsource-variable/azeret-mono@5.2.9':
-    resolution: {integrity: sha512-WjCqkLfEza2lBTxn9m2SgwCMQR1zrAs31tHewv9SkdL98PAfdj+uGhyIHPVcYqvwW/CiqUYXBT6LLpMZdPTM8Q==}
-
-  '@fontsource-variable/dm-sans@5.2.6':
-    resolution: {integrity: sha512-edr+wGsc9d7/5aMB8ty1z0Zb0fqzJtBZ5+c2FhtrJwYhefcLEOL4r66EBqeyEFhVTMhCGIjhtxmigrRbPN0mUw==}
-
-  '@fontsource-variable/stix-two-text@5.2.6':
-    resolution: {integrity: sha512-xnBciXopU1a05yHTeS4++nobfF5Ck3xKjtyjBvE8+n5Hme+0m7ywceOG7sbOxWgFIMnJJYpROE7iwOpNDr9iyw==}
 
   '@isaacs/cliui@8.0.2':
     resolution: {integrity: sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA==}
@@ -4949,12 +4931,6 @@ snapshots:
     optional: true
 
   '@fal-works/esbuild-plugin-global-externals@2.1.2': {}
-
-  '@fontsource-variable/azeret-mono@5.2.9': {}
-
-  '@fontsource-variable/dm-sans@5.2.6': {}
-
-  '@fontsource-variable/stix-two-text@5.2.6': {}
 
   '@isaacs/cliui@8.0.2':
     dependencies:

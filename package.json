@@ -1,6 +1,6 @@
 {
   "name": "@honehealth/jutsu",
-  "version": "2.1.2",
+  "version": "2.2.0",
   "author": "Hone Health <info@honehealth.com>",
   "repository": {
     "type": "git",
@@ -53,9 +53,6 @@
   },
   "dependencies": {
     "@chakra-ui/styled-system": "^2.3.3",
-    "@chakra-ui/theme-tools": "^2.0.11",
-    "@fontsource-variable/azeret-mono": "^5.0.21",
-    "@fontsource-variable/dm-sans": "^5.0.6",
-    "@fontsource-variable/stix-two-text": "^5.0.21"
+    "@chakra-ui/theme-tools": "^2.0.11"
   }
 }
