@@ -6,7 +6,7 @@ const yellow = {
   pressed: '#e1e25e',
 };
 
-export default {
+const colors = {
   ...theme.colors,
   brand: yellow,
   white: '#fcfcfa',
