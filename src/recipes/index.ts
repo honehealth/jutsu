@@ -1,9 +1,7 @@
-import { ComponentStyleConfig } from '@chakra-ui/react';
-
 import Alert from './Alert';
 import Button from './Button';
 import Checkbox from './Checkbox';
-import FormLabel from './FormLabel';
+import Field from './Field';
 import Heading from './Heading';
 import Input from './Input';
 import Radio from './Radio';
@@ -16,7 +14,7 @@ export default {
   Alert,
   Button,
   Checkbox,
-  FormLabel,
+  Field,
   Heading,
   Input,
   Radio,
@@ -24,4 +22,4 @@ export default {
   Tag,
   Text,
   Textarea,
-} as Record<string, ComponentStyleConfig>;
+};

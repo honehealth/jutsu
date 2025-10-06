@@ -1,51 +1,47 @@
-import { theme } from '@chakra-ui/react';
+import { defineTokens } from '@chakra-ui/react';
 
-const yellow = {
-  default: '#F8F93F',
-  hover: '#edee3a',
-  pressed: '#e1e25e',
-};
-
-const colors = {
-  ...theme.colors,
-  brand: yellow,
-  white: '#fcfcfa',
-  whitePure: '#ffffff',
+export const colors = defineTokens.colors({
+  white: { value: '#fcfcfa' },
+  whitePure: { value: '#ffffff' },
   red: {
-    default: '#f52c5e',
-    light: '#ffeaef',
+    default: { value: '#f52c5e' },
+    light: { value: '#ffeaef' },
   },
   orange: {
-    default: '#f6752d',
+    default: { value: '#f6752d' },
   },
-  yellow,
+  yellow: {
+    default: { value: '#F8F93F' },
+    hover: { value: '#edee3a' },
+    pressed: { value: '#e1e25e' },
+  },
   green: {
-    default: '#1e9c5b',
-    light: '#cbf2df',
+    default: { value: '#1e9c5b' },
+    light: { value: '#cbf2df' },
   },
-  grayLight: '#f1f0ef',
+  grayLight: { value: '#f1f0ef' },
   grayMid: {
-    default: '#d2cec4',
-    hover: '#dad7cf',
-    depressed: '#e3e0da',
-    light: '#f4f3ef',
-    lighter: '#f8f7f5',
-    lightest: '#fafaf7',
+    default: { value: '#d2cec4' },
+    hover: { value: '#dad7cf' },
+    depressed: { value: '#e3e0da' },
+    light: { value: '#f4f3ef' },
+    lighter: { value: '#f8f7f5' },
+    lightest: { value: '#fafaf7' },
   },
   grayDark: {
-    default: '#6D6D6D',
-    hover: '#7f7b74',
-    depressed: '#9e9b95',
-    light: '#dddcd8',
-    lighter: '#ecece9',
-    lightest: '#f4f4f2',
+    default: { value: '#6D6D6D' },
+    hover: { value: '#7f7b74' },
+    depressed: { value: '#9e9b95' },
+    light: { value: '#dddcd8' },
+    lighter: { value: '#ecece9' },
+    lightest: { value: '#f4f4f2' },
   },
   black: {
-    default: '#202020',
-    hover: '#3e3b4c',
-    depressed: '#6d6b77',
-    light: '#ccccce',
-    lighter: '#e4e4e4',
-    lightest: '#f0f0ef',
+    default: { value: '#202020' },
+    hover: { value: '#3e3b4c' },
+    depressed: { value: '#6d6b77' },
+    light: { value: '#ccccce' },
+    lighter: { value: '#e4e4e4' },
+    lightest: { value: '#f0f0ef' },
   },
-};
+});

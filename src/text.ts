@@ -1,59 +1,60 @@
-import { ComponentStyleConfig } from '@chakra-ui/react';
+import { defineTextStyles } from '@chakra-ui/react';
 
-export default {
-  baseStyle: {
-    fontFamily: 'DM Sans',
-  },
-  sizes: {
-    '2xs': {
+export const textStyles = defineTextStyles({
+  '2xs': {
+    value: {
       fontSize: '11px',
       fontWeight: 'bold',
       letterSpacing: '-2%',
       lineHeight: '100%',
     },
-    xs: {
+  },
+  xs: {
+    value: {
       fontSize: '14px',
       fontWeight: 'bold',
       letterSpacing: '-2%',
       lineHeight: '100%',
     },
-    sm: {
+  },
+  sm: {
+    value: {
       fontSize: '16px',
       fontWeight: 'regular',
       letterSpacing: '-2%',
       lineHeight: '100%',
     },
-    md: {
+  },
+  md: {
+    value: {
       fontSize: '18px',
       fontWeight: 'medium',
       letterSpacing: '-2%',
       lineHeight: '100%',
     },
-    lg: {
+  },
+  lg: {
+    value: {
       fontSize: '22px',
       fontWeight: 'medium',
       lineHeight: '1.2',
       letterSpacing: '0.05rem',
     },
-    xl: {
+  },
+  xl: {
+    value: {
       fontSize: '28px',
       fontWeight: 'regular',
       letterSpacing: '-2%',
       lineHeight: '100%',
     },
-    '2xl': {
+  },
+  '2xl': {
+    value: {
       fontSize: '32px',
       fontWeight: 'regular',
       letterSpacing: '-2%',
       lineHeight: '100%',
-      marginBottom: '32px',
     },
   },
-  variants: {
-    heading: {},
-    display: {
-      fontFamily: 'STIX Two Text, Times',
-      fontWeight: 400,
-    },
-  },
-} as ComponentStyleConfig;
+});

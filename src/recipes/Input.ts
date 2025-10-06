@@ -1,19 +1,16 @@
-import { ComponentStyleConfig } from '@chakra-ui/react';
+import { defineRecipe } from '@chakra-ui/react';
 
-export default {
-  baseStyle: {
+export default defineRecipe({
+  base: {
     background: 'whitePure',
     color: 'black.depressed',
   },
-  parts: ['field'],
   variants: {
-    filled: {
-      field: {
+    variant: {
+      filled: {
         borderRadius: 2,
       },
-    },
-    outline: {
-      field: {
+      outline: {
         borderColor: 'black.light',
         borderRadius: 2,
         _disabled: {
@@ -26,4 +23,4 @@ export default {
       },
     },
   },
-} as ComponentStyleConfig;
+});
