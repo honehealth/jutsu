@@ -7,17 +7,13 @@ settings:
 importers:
 
   .:
-    dependencies:
-      '@chakra-ui/theme-tools':
-        specifier: ^2.0.11
-        version: 2.2.6(@chakra-ui/styled-system@2.12.4(react@19.2.0))(react@19.2.0)
     devDependencies:
       '@chakra-ui/cli':
         specifier: ^3.27.0
-        version: 3.27.0(@chakra-ui/react@3.27.0(@emotion/react@11.14.0(@types/react@19.2.0)(react@19.2.0))(react-dom@19.2.0(react@19.2.0))(react@19.2.0))
+        version: 3.27.0(@chakra-ui/react@3.27.1(@emotion/react@11.14.0(@types/react@19.2.0)(react@19.2.0))(react-dom@19.2.0(react@19.2.0))(react@19.2.0))
       '@chakra-ui/react':
-        specifier: ^3.27.0
-        version: 3.27.0(@emotion/react@11.14.0(@types/react@19.2.0)(react@19.2.0))(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
+        specifier: ^3.27.1
+        version: 3.27.1(@emotion/react@11.14.0(@types/react@19.2.0)(react@19.2.0))(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       '@emotion/react':
         specifier: ^11.14.0
         version: 11.14.0(@types/react@19.2.0)(react@19.2.0)
@@ -93,39 +89,18 @@ packages:
     resolution: {integrity: sha512-ruv7Ae4J5dUYULmeXw1gmb7rYRz57OWCPM57pHojnLq/3Z1CK2lNSLTCVjxVk1F/TZHwOZZrOWi0ur95BbLxNQ==}
     engines: {node: '>=6.9.0'}
 
-  '@chakra-ui/anatomy@2.3.4':
-    resolution: {integrity: sha512-fFIYN7L276gw0Q7/ikMMlZxP7mvnjRaWJ7f3Jsf9VtDOi6eAYIBRrhQe6+SZ0PGmoOkRaBc7gSE5oeIbgFFyrw==}
-
   '@chakra-ui/cli@3.27.0':
     resolution: {integrity: sha512-BZ/mFrlmHKUiPdMTRPXRhsiOdG8oK2IVgklKFaPjigXCmSNu8RhFCF4PrGdHW41UvKNDw1imhvYCEoDh3NWEHA==}
     hasBin: true
     peerDependencies:
       '@chakra-ui/react': '>=3.0.0-next.0'
 
-  '@chakra-ui/react@3.27.0':
-    resolution: {integrity: sha512-M1WTAErI2cYM/PB4h5Kf5CCAg70g3HCzVvTEhcf5ty8QrG6QybPf3RdWSpBlIy7qpjuEnQYpHLxM0jnFLArBgA==}
+  '@chakra-ui/react@3.27.1':
+    resolution: {integrity: sha512-cjvowtELfber0OKDWt2Udl/I4SVKnA89pFZA+I1EG6uwlUZRpgOdwQZVEQceMmc4iVRFbUJudoAuqWhQIl/Irw==}
     peerDependencies:
       '@emotion/react': '>=11'
       react: '>=18'
       react-dom: '>=18'
-
-  '@chakra-ui/styled-system@2.12.4':
-    resolution: {integrity: sha512-oa07UG7Lic5hHSQtGRiMEnYjuhIa8lszyuVhZjZqR2Ap3VMF688y1MVPJ1pK+8OwY5uhXBgVd5c0+rI8aBZlwg==}
-
-  '@chakra-ui/theme-tools@2.2.6':
-    resolution: {integrity: sha512-3UhKPyzKbV3l/bg1iQN9PBvffYp+EBOoYMUaeTUdieQRPFzo2jbYR0lNCxqv8h5aGM/k54nCHU2M/GStyi9F2A==}
-    peerDependencies:
-      '@chakra-ui/styled-system': '>=2.0.0'
-
-  '@chakra-ui/utils@2.2.2':
-    resolution: {integrity: sha512-jUPLT0JzRMWxpdzH6c+t0YMJYrvc5CLericgITV3zDSXblkfx3DsYXqU11DJTSGZI9dUKzM1Wd0Wswn4eJwvFQ==}
-    peerDependencies:
-      react: '>=16.8.0'
-
-  '@chakra-ui/utils@2.2.5':
-    resolution: {integrity: sha512-KTBCK+M5KtXH6p54XS39ImQUMVtAx65BoZDoEms3LuObyTo1+civ1sMm4h3nRT320U6H5H7D35WnABVQjqU/4g==}
-    peerDependencies:
-      react: '>=16.8.0'
 
   '@clack/core@0.5.0':
     resolution: {integrity: sha512-p3y0FIOwaYRUPRcMO7+dlmLh8PSRcrjuTndsiA0WAFbWES0mLZlrjVoBRZ9DzkPFJZG6KGkJmoEAY0ZcVWTkow==}
@@ -396,12 +371,6 @@ packages:
 
   '@types/debug@4.1.12':
     resolution: {integrity: sha512-vIChWdVG3LG1SMxEvI/AK+FWJthlrqlTu7fbrlywTkkaONwk/UAGaULXRlf8vkzFBLVm0zkMdCquhL5aOjhXPQ==}
-
-  '@types/lodash.mergewith@4.6.9':
-    resolution: {integrity: sha512-fgkoCAOF47K7sxrQ7Mlud2TH023itugZs2bUg8h/KzT+BnZNrR2jAOmaokbLunHNnobXVWOezAeNn/lZqwxkcw==}
-
-  '@types/lodash@4.17.20':
-    resolution: {integrity: sha512-H3MHACvFUEiujabxhaI/ImO6gUrd8oOurg7LQtS7mbwIXA/cUqWrvBsaeJ23aZEPk1TAYkurjfMbSELfoCXlGA==}
 
   '@types/ms@2.1.0':
     resolution: {integrity: sha512-GsCCIZDE/p3i96vtEqx+7dBUGXrc7zeSK3wwPHIaRThS+9OhWIXRqzs4d6k1SVU8g91DrNRWxWUGhp5KXQb2VA==}
@@ -709,9 +678,6 @@ packages:
   color-name@1.1.4:
     resolution: {integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==}
 
-  color2k@2.0.3:
-    resolution: {integrity: sha512-zW190nQTIoXcGCaU08DvVNFTmQhUpnJfVuAKfWqUQkflXKpaDdpaYoM0iluLS9lgJNHyBF58KKA2FBEwkD7wog==}
-
   colors@1.0.3:
     resolution: {integrity: sha512-pFGrxThWcWQ2MsAz6RtgeWe4NK2kUE1WfsrvvlctdII745EW9I0yflqhe7++M5LEc7bV2c/9/5zc8sFcpL0Drw==}
     engines: {node: '>=0.1.90'}
@@ -890,9 +856,6 @@ packages:
 
   lines-and-columns@1.2.4:
     resolution: {integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==}
-
-  lodash.mergewith@4.6.2:
-    resolution: {integrity: sha512-GK3g5RPZWTRSeLSpgP8Xhra+pnjBC56q9FZYe1d5RN3TJ35dbkGy3YqBSMbyCrlbi+CM9Z3Jk5yTL7RCsqboyQ==}
 
   look-it-up@2.1.0:
     resolution: {integrity: sha512-nMoGWW2HurtuJf6XAL56FWTDCWLOTSsanrgwOyaR5Y4e3zfG5N/0cU5xWZSEU3tBxhQugRbV1xL9jb+ug7yZww==}
@@ -1277,11 +1240,9 @@ snapshots:
       '@babel/helper-string-parser': 7.27.1
       '@babel/helper-validator-identifier': 7.27.1
 
-  '@chakra-ui/anatomy@2.3.4': {}
-
-  '@chakra-ui/cli@3.27.0(@chakra-ui/react@3.27.0(@emotion/react@11.14.0(@types/react@19.2.0)(react@19.2.0))(react-dom@19.2.0(react@19.2.0))(react@19.2.0))':
+  '@chakra-ui/cli@3.27.0(@chakra-ui/react@3.27.1(@emotion/react@11.14.0(@types/react@19.2.0)(react@19.2.0))(react-dom@19.2.0(react@19.2.0))(react@19.2.0))':
     dependencies:
-      '@chakra-ui/react': 3.27.0(@emotion/react@11.14.0(@types/react@19.2.0)(react@19.2.0))(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
+      '@chakra-ui/react': 3.27.1(@emotion/react@11.14.0(@types/react@19.2.0)(react@19.2.0))(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       '@clack/prompts': 0.11.0
       '@pandacss/is-valid-prop': 0.54.0
       '@types/cli-table': 0.3.4
@@ -1305,7 +1266,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@chakra-ui/react@3.27.0(@emotion/react@11.14.0(@types/react@19.2.0)(react@19.2.0))(react-dom@19.2.0(react@19.2.0))(react@19.2.0)':
+  '@chakra-ui/react@3.27.1(@emotion/react@11.14.0(@types/react@19.2.0)(react@19.2.0))(react-dom@19.2.0(react@19.2.0))(react@19.2.0)':
     dependencies:
       '@ark-ui/react': 5.25.1(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       '@emotion/is-prop-valid': 1.3.1
@@ -1318,34 +1279,6 @@ snapshots:
       fast-safe-stringify: 2.1.1
       react: 19.2.0
       react-dom: 19.2.0(react@19.2.0)
-
-  '@chakra-ui/styled-system@2.12.4(react@19.2.0)':
-    dependencies:
-      '@chakra-ui/utils': 2.2.5(react@19.2.0)
-      csstype: 3.1.3
-    transitivePeerDependencies:
-      - react
-
-  '@chakra-ui/theme-tools@2.2.6(@chakra-ui/styled-system@2.12.4(react@19.2.0))(react@19.2.0)':
-    dependencies:
-      '@chakra-ui/anatomy': 2.3.4
-      '@chakra-ui/styled-system': 2.12.4(react@19.2.0)
-      '@chakra-ui/utils': 2.2.2(react@19.2.0)
-      color2k: 2.0.3
-    transitivePeerDependencies:
-      - react
-
-  '@chakra-ui/utils@2.2.2(react@19.2.0)':
-    dependencies:
-      '@types/lodash.mergewith': 4.6.9
-      lodash.mergewith: 4.6.2
-      react: 19.2.0
-
-  '@chakra-ui/utils@2.2.5(react@19.2.0)':
-    dependencies:
-      '@types/lodash.mergewith': 4.6.9
-      lodash.mergewith: 4.6.2
-      react: 19.2.0
 
   '@clack/core@0.5.0':
     dependencies:
@@ -1574,12 +1507,6 @@ snapshots:
   '@types/debug@4.1.12':
     dependencies:
       '@types/ms': 2.1.0
-
-  '@types/lodash.mergewith@4.6.9':
-    dependencies:
-      '@types/lodash': 4.17.20
-
-  '@types/lodash@4.17.20': {}
 
   '@types/ms@2.1.0': {}
 
@@ -2178,8 +2105,6 @@ snapshots:
 
   color-name@1.1.4: {}
 
-  color2k@2.0.3: {}
-
   colors@1.0.3: {}
 
   commander@12.1.0: {}
@@ -2371,8 +2296,6 @@ snapshots:
   json-parse-even-better-errors@2.3.1: {}
 
   lines-and-columns@1.2.4: {}
-
-  lodash.mergewith@4.6.2: {}
 
   look-it-up@2.1.0: {}
 

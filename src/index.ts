@@ -1,9 +1,9 @@
-import { createSystem, defaultConfig } from '@chakra-ui/react';
+import { createSystem, defaultConfig, defineConfig } from '@chakra-ui/react';
 import recipes from './recipes';
 import { colors, semanticColors } from './colors';
 import { textStyles } from './text';
 
-export const system = createSystem(defaultConfig, {
+const config = defineConfig({
   theme: {
     tokens: {
       fonts: {
@@ -36,3 +36,5 @@ export const system = createSystem(defaultConfig, {
     recipes,
   },
 });
+
+export default createSystem(defaultConfig, config);
