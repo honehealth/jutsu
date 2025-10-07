@@ -1,6 +1,6 @@
 import { createSystem, defaultConfig } from '@chakra-ui/react';
 import recipes from './recipes';
-import { colors } from './colors';
+import { colors, semanticColors } from './colors';
 import { textStyles } from './text';
 
 export const system = createSystem(defaultConfig, {
@@ -21,9 +21,7 @@ export const system = createSystem(defaultConfig, {
       colors,
     },
     semanticTokens: {
-      colors: {
-        brand: { value: '{colors.yellow}' },
-      },
+      colors: semanticColors,
       shadows: {
         xs: { value: '0px 2px 4px 0px rgba(234, 234, 234, 0.1)' },
         sm: { value: '0px 2px 8px 0px rgba(234, 234, 234, 0.2)' },
