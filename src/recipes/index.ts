@@ -5,7 +5,7 @@ import field from './field.recipe';
 import heading from './heading.recipe';
 import input from './input.recipe';
 import radio from './radio.recipe';
-import select from './select.recipe';
+import nativeSelect from './select.recipe';
 import tag from './tag.recipe';
 import text from './text.recipe';
 import textarea from './textarea.recipe';
@@ -18,7 +18,7 @@ export default {
   heading,
   input,
   radio,
-  select,
+  nativeSelect,
   tag,
   text,
   textarea,
