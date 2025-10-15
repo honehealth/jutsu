@@ -1,14 +1,11 @@
 {
   "name": "@honehealth/jutsu",
-  "version": "4.0.0-rc.4",
+  "version": "4.0.0-rc.5",
   "author": "Hone Health <info@honehealth.com>",
   "repository": {
     "type": "git",
     "url": "git@github.com:honehealth/jutsu.git"
   },
-  "files": [
-    "lib"
-  ],
   "packageManager": "pnpm@10.13.1",
   "engines": {
     "node": ">=22.17.1 <23",
@@ -18,8 +15,25 @@
   "module": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "exports": {
-    "./recipes": "./lib/recipes/index.js"
+    ".": {
+      "dev": "./src/index.ts",
+      "import": {
+        "default": "./lib/index.js",
+        "types": "./lib/index.d.ts"
+      }
+    },
+    "./recipes": {
+      "dev": "./src/recipes/index.ts",
+      "import": {
+        "default": "./lib/recipes/index.js",
+        "types": "./lib/recipes/index.d.ts"
+      }
+    }
   },
+  "files": [
+    "lib"
+  ],
+  "sideEffects": false,
   "devDependencies": {
     "@chakra-ui/cli": "^3.27.0",
     "@chakra-ui/react": "^3.27.1",

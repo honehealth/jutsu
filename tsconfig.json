@@ -11,6 +11,8 @@
     "moduleResolution": "bundler",
     "verbatimModuleSyntax": true,
     "noEmit": false,
+    "declaration": true,
+    "emitDeclarationOnly": true,
     "customConditions": ["dev"],
 
     // JSX
