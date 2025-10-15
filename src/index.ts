@@ -1,5 +1,5 @@
 import { createSystem, defaultConfig, defineConfig } from '@chakra-ui/react';
-import recipes from './recipes/index';
+import recipes from './recipes';
 import { colors, semanticColors } from './colors';
 import { textStyles } from './text';
 
