@@ -5,14 +5,14 @@
     "target": "ESNext",
     "module": "ESNext",
     "moduleDetection": "force",
-    "allowJs": false,
+    "allowJs": true,
 
     // Bundler mode
     "moduleResolution": "bundler",
     "verbatimModuleSyntax": true,
     "noEmit": false,
     "declaration": true,
-    "emitDeclarationOnly": true,
+    "emitDeclarationOnly": false,
     "customConditions": ["dev"],
 
     // JSX
