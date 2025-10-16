@@ -81,13 +81,6 @@ export const colors = defineTokens.colors({
     90: { value: '#363636' },
     100: { value: '#202020' },
   },
-  transparent: {
-    10: { value: '#FFFFFF1A' },
-    30: { value: '#FFFFFF4D' },
-    50: { value: '#FFFFFF80' },
-    70: { value: '#FFFFFFB2' },
-    100: { value: '#FFFFFF' },
-  },
   black: {
     10: { value: '#0000001A' },
     30: { value: '#0000004D' },
@@ -105,92 +98,100 @@ export const semanticColors = defineSemanticTokens.colors({
       gray: { value: '{colors.gray.10}' },
       white: { value: '{colors.whitePure}' },
     },
-  },
 
-  text: {
-    main: { value: 'colors.gray.100' },
-    sub: { value: 'colors.gray.60' },
-    optimal: { value: 'colors.green.70' },
-    borderline: { value: 'colors.orange.80' },
-    concern: { value: 'colors.red.80' },
-    alert: { value: 'colors.red.80' },
-    success: { value: 'colors.green.80' },
-  },
+    transparent: {
+      10: { value: '#FFFFFF1A' },
+      30: { value: '#FFFFFF4D' },
+      50: { value: '#FFFFFF80' },
+      70: { value: '#FFFFFFB2' },
+      100: { value: '#FFFFFF' },
+    },
 
-  background: {
-    optimal: { value: 'colors.green.10' },
-    borderline: { value: 'colors.orange.10' },
-    concern: { value: 'colors.red.10' },
-    alert: { value: 'colors.red.10' },
-    success: { value: 'colors.green.10' },
-  },
+    text: {
+      main: { value: 'colors.gray.100' },
+      sub: { value: 'colors.gray.60' },
+      optimal: { value: 'colors.green.70' },
+      borderline: { value: 'colors.orange.80' },
+      concern: { value: 'colors.red.80' },
+      alert: { value: 'colors.red.80' },
+      success: { value: 'colors.green.80' },
+    },
 
-  success: { value: 'colors.green.50' },
-  alert: { value: 'colors.red.50' },
+    background: {
+      optimal: { value: 'colors.green.10' },
+      borderline: { value: 'colors.orange.10' },
+      concern: { value: 'colors.red.10' },
+      alert: { value: 'colors.red.10' },
+      success: { value: 'colors.green.10' },
+    },
 
-  range: {
-    optimal: { value: 'colors.green.50' },
-    borderline: { value: 'colors.orange.50' },
-    concern: { value: 'colors.red.50' },
-  },
+    success: { value: 'colors.green.50' },
+    alert: { value: 'colors.red.50' },
 
-  gradient: {
     range: {
-      full: {
-        value:
-          'linear-gradient(90deg, #FC5358 0%, #FF6B49 14.29%, #FF833A 28.57%, #FF9A47 42.86%, #E7B513 57.14%, #C3CB2E 71.43%, #76DA62 85.71%, #0EE39B 100%)',
-      },
-      conernBorderline: {
-        value:
-          'linear-gradient(90deg, #FC5358 0%, #FF5F51 14.29%, #FF6B49 28.57%, #FF7742 42.86%, #FF833A 57.14%, #FF8F32 71.43%, #FF9B2A 85.71%, #FF9A47 100%)',
-      },
-      borderlineConcern: {
-        value:
-          'linear-gradient(90deg, #FF9A47 0%, #E7B513 14.29%, #CDC419 28.57%, #B2CB2E 42.86%, #95D447 57.14%, #76DA62 71.43%, #51DF87 85.71%, #0EE39B 100%)',
+      optimal: { value: 'colors.green.50' },
+      borderline: { value: 'colors.orange.50' },
+      concern: { value: 'colors.red.50' },
+    },
+
+    gradient: {
+      range: {
+        full: {
+          value:
+            'linear-gradient(90deg, #FC5358 0%, #FF6B49 14.29%, #FF833A 28.57%, #FF9A47 42.86%, #E7B513 57.14%, #C3CB2E 71.43%, #76DA62 85.71%, #0EE39B 100%)',
+        },
+        conernBorderline: {
+          value:
+            'linear-gradient(90deg, #FC5358 0%, #FF5F51 14.29%, #FF6B49 28.57%, #FF7742 42.86%, #FF833A 57.14%, #FF8F32 71.43%, #FF9B2A 85.71%, #FF9A47 100%)',
+        },
+        borderlineConcern: {
+          value:
+            'linear-gradient(90deg, #FF9A47 0%, #E7B513 14.29%, #CDC419 28.57%, #B2CB2E 42.86%, #95D447 57.14%, #76DA62 71.43%, #51DF87 85.71%, #0EE39B 100%)',
+        },
       },
     },
-  },
 
-  // Legacy colors
-  red: {
-    default: { value: '#f52c5e' },
-    light: { value: '#ffeaef' },
-  },
-  orange: {
-    default: { value: '#f6752d' },
-  },
-  yellow: {
-    default: { value: '#F8F93F' },
-    hover: { value: '#edee3a' },
-    pressed: { value: '#e1e25e' },
-  },
-  green: {
-    default: { value: '#1e9c5b' },
-    light: { value: '#cbf2df' },
-  },
-  grayLight: { value: '#f1f0ef' },
-  grayMid: {
-    default: { value: '#d2cec4' },
-    hover: { value: '#dad7cf' },
-    depressed: { value: '#e3e0da' },
-    light: { value: '#f4f3ef' },
-    lighter: { value: '#f8f7f5' },
-    lightest: { value: '#fafaf7' },
-  },
-  grayDark: {
-    default: { value: '#6D6D6D' },
-    hover: { value: '#7f7b74' },
-    depressed: { value: '#9e9b95' },
-    light: { value: '#dddcd8' },
-    lighter: { value: '#ecece9' },
-    lightest: { value: '#f4f4f2' },
-  },
-  black: {
-    default: { value: '#202020' },
-    hover: { value: '#3e3b4c' },
-    depressed: { value: '#6d6b77' },
-    light: { value: '#ccccce' },
-    lighter: { value: '#e4e4e4' },
-    lightest: { value: '#f0f0ef' },
+    // Legacy colors
+    red: {
+      default: { value: '#f52c5e' },
+      light: { value: '#ffeaef' },
+    },
+    orange: {
+      default: { value: '#f6752d' },
+    },
+    yellow: {
+      default: { value: '#F8F93F' },
+      hover: { value: '#edee3a' },
+      pressed: { value: '#e1e25e' },
+    },
+    green: {
+      default: { value: '#1e9c5b' },
+      light: { value: '#cbf2df' },
+    },
+    grayLight: { value: '#f1f0ef' },
+    grayMid: {
+      default: { value: '#d2cec4' },
+      hover: { value: '#dad7cf' },
+      depressed: { value: '#e3e0da' },
+      light: { value: '#f4f3ef' },
+      lighter: { value: '#f8f7f5' },
+      lightest: { value: '#fafaf7' },
+    },
+    grayDark: {
+      default: { value: '#6D6D6D' },
+      hover: { value: '#7f7b74' },
+      depressed: { value: '#9e9b95' },
+      light: { value: '#dddcd8' },
+      lighter: { value: '#ecece9' },
+      lightest: { value: '#f4f4f2' },
+    },
+    black: {
+      default: { value: '#202020' },
+      hover: { value: '#3e3b4c' },
+      depressed: { value: '#6d6b77' },
+      light: { value: '#ccccce' },
+      lighter: { value: '#e4e4e4' },
+      lightest: { value: '#f0f0ef' },
+    },
   },
 });
