@@ -116,7 +116,18 @@ export const semanticColors = defineSemanticTokens.colors({
     success: { value: 'colors.green.80' },
   },
 
-  background: {
+  fg: {
+    DEFAULT: { value: 'colors.gray.100' },
+    sub: { value: 'colors.gray.60' },
+    optimal: { value: 'colors.green.70' },
+    borderline: { value: 'colors.orange.80' },
+    concern: { value: 'colors.red.80' },
+    alert: { value: 'colors.red.80' },
+    success: { value: 'colors.green.80' },
+  },
+
+  bg: {
+    DEFAULT: { value: 'colors.whitePure' },
     optimal: { value: 'colors.green.10' },
     borderline: { value: 'colors.orange.10' },
     concern: { value: 'colors.red.10' },
