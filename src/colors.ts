@@ -161,22 +161,54 @@ export const semanticColors = defineSemanticTokens.colors({
     },
   },
 
-  // Legacy colors
+  // Palette (w/ legacy colors)
   red: {
     default: { value: '#f52c5e' },
     light: { value: '#ffeaef' },
+
+    solid: { value: 'colors.red.50' },
+    contrast: { value: 'colors.gray.100' },
+    fg: { value: 'colors.gray.100' },
+    muted: { value: 'colors.red.20' },
+    subtle: { value: 'colors.red.10' },
+    emphasized: { value: 'colors.red.30' },
+    focusRing: { value: 'colors.red.50' },
   },
   orange: {
     default: { value: '#f6752d' },
+
+    solid: { value: 'colors.orange.50' },
+    contrast: { value: 'colors.gray.100' },
+    fg: { value: 'colors.gray.100' },
+    muted: { value: 'colors.orange.20' },
+    subtle: { value: 'colors.orange.10' },
+    emphasized: { value: 'colors.orange.30' },
+    focusRing: { value: 'colors.orange.50' },
   },
   yellow: {
     default: { value: '#F8F93F' },
     hover: { value: '#edee3a' },
     pressed: { value: '#e1e25e' },
+
+    solid: { value: 'colors.yellow.50' },
+    contrast: { value: 'colors.gray.100' },
+    fg: { value: 'colors.gray.100' },
+    muted: { value: 'colors.yellow.20' },
+    subtle: { value: 'colors.yellow.10' },
+    emphasized: { value: 'colors.yellow.30' },
+    focusRing: { value: 'colors.yellow.50' },
   },
   green: {
     default: { value: '#1e9c5b' },
     light: { value: '#cbf2df' },
+
+    solid: { value: 'colors.green.50' },
+    contrast: { value: 'colors.gray.100' },
+    fg: { value: 'colors.gray.100' },
+    muted: { value: 'colors.green.20' },
+    subtle: { value: 'colors.green.10' },
+    emphasized: { value: 'colors.green.30' },
+    focusRing: { value: 'colors.green.50' },
   },
   grayLight: { value: '#f1f0ef' },
   grayMid: {
@@ -195,6 +227,15 @@ export const semanticColors = defineSemanticTokens.colors({
     lighter: { value: '#ecece9' },
     lightest: { value: '#f4f4f2' },
   },
+  gray: {
+    solid: { value: 'colors.gray.50' },
+    contrast: { value: 'colors.whitePure' },
+    fg: { value: 'colors.whitePure' },
+    muted: { value: 'colors.gray.20' },
+    subtle: { value: 'colors.gray.10' },
+    emphasized: { value: 'colors.yellow.50' },
+    focusRing: { value: 'colors.gray.100' },
+  },
   black: {
     default: { value: '#202020' },
     hover: { value: '#3e3b4c' },
@@ -202,5 +243,13 @@ export const semanticColors = defineSemanticTokens.colors({
     light: { value: '#ccccce' },
     lighter: { value: '#e4e4e4' },
     lightest: { value: '#f0f0ef' },
+
+    solid: { value: 'colors.gray.100' },
+    contrast: { value: 'colors.whitePure' },
+    fg: { value: 'colors.yellow.50' },
+    muted: { value: 'colors.gray.20' },
+    subtle: { value: 'colors.gray.10' },
+    emphasized: { value: 'colors.yellow.50' },
+    focusRing: { value: 'colors.gray.100' },
   },
 });
