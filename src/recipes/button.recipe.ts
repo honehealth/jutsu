@@ -37,12 +37,14 @@ export default defineRecipe({
       solid: {
         bg: `colorPalette.default`,
         border: '1px solid',
+        borderColor: 'colorPalette.default',
         color: 'black.default',
         _active: {
           bg: `colorPalette.depressed`,
         },
         _hover: {
           bg: `colorPalette.hover`,
+          borderColor: 'colorPalette.hover',
           _disabled: {
             background: `colorPalette.default`,
             border: 'none',
