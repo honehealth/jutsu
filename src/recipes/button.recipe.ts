@@ -36,7 +36,8 @@ export default defineRecipe({
       },
       solid: {
         bg: `colorPalette.default`,
-        border: '1px solid',
+        borderWidth: '1px',
+        borderStyle: 'solid',
         borderColor: 'colorPalette.default',
         color: 'black.default',
         _active: {
