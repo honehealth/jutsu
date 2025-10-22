@@ -210,6 +210,18 @@ export const semanticColors = defineSemanticTokens.colors({
     emphasized: { value: 'colors.green.30' },
     focusRing: { value: 'colors.green.50' },
   },
+  blue: {
+    default: { value: '#1e9c5b' },
+    light: { value: '#cbf2df' },
+
+    solid: { value: 'colors.blue.50' },
+    contrast: { value: 'colors.gray.100' },
+    fg: { value: 'colors.gray.100' },
+    muted: { value: 'colors.blue.20' },
+    subtle: { value: 'colors.blue.10' },
+    emphasized: { value: 'colors.blue.30' },
+    focusRing: { value: 'colors.blue.50' },
+  },
   grayLight: { value: '#f1f0ef' },
   grayMid: {
     default: { value: '#d2cec4' },
