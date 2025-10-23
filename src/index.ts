@@ -1,40 +1,35 @@
-import { createSystem, defaultConfig, defineConfig } from '@chakra-ui/react';
-import recipes from './recipes/index.js';
-import { colors, semanticColors } from './colors.js';
-import { textStyles } from './text.js';
+import {
+  createSystem,
+  defaultBaseConfig,
+  defineConfig,
+} from '@chakra-ui/react';
+import { animationStyles } from './animation-styles';
+import { breakpoints } from './breakpoints';
+import { globalCss } from './global-css';
+import { keyframes } from './keyframes';
+import { layerStyles } from './layer-styles';
+import { recipes } from './recipes';
+import { semanticTokens } from './semantic-tokens';
+import { slotRecipes } from './slot-recipes';
+import { textStyles } from './text-styles';
+import { tokens } from './tokens';
 
-const config = defineConfig({
+const themeConfig = defineConfig({
+  preflight: true,
+  cssVarsPrefix: 'chakra',
+  cssVarsRoot: ':where(:root, :host)',
+  globalCss,
   theme: {
-    tokens: {
-      fonts: {
-        body: { value: `'DM Sans', sans` },
-        heading: { value: `'DM Sans', sans` },
-        display: { value: `'STIX Two Text', sans-serif` },
-      },
-      letterSpacings: {
-        tighter: { value: '-0.10rem' },
-        tight: { value: '-0.05rem' },
-        wide: { value: '0.05rem' },
-        wider: { value: '0.10rem' },
-        widest: { value: '0.20rem' },
-      },
-      colors,
-    },
-    semanticTokens: {
-      colors: semanticColors,
-      shadows: {
-        xs: { value: '0px 2px 4px 0px rgba(234, 234, 234, 0.1)' },
-        sm: { value: '0px 2px 8px 0px rgba(234, 234, 234, 0.2)' },
-        base: { value: '0px 4px 16px 0px rgba(234, 234, 234, 0.25)' },
-        md: { value: '0px 4px 16px 0px rgba(234, 234, 234, 0.25)' },
-        lg: { value: '0px 8px 18px 0px rgba(234, 234, 234, 0.25)' },
-        xl: { value: '0px 6px 20px 0px rgba(234, 234, 234, 0.35)' },
-        '2xl': { value: '0px 6px 24px 0px rgba(234, 234, 234, 0.35)' },
-      },
-    },
-    textStyles,
+    breakpoints,
+    keyframes,
+    tokens,
+    semanticTokens,
     recipes,
+    slotRecipes,
+    textStyles,
+    layerStyles,
+    animationStyles,
   },
 });
 
-export default createSystem(defaultConfig, config);
+export const system = createSystem(defaultBaseConfig, themeConfig);
