@@ -1,22 +1,22 @@
-import { badgeRecipe } from './badge';
-import { buttonRecipe } from './button';
-import { codeRecipe } from './code';
-import { containerRecipe } from './container';
-import { headingRecipe } from './heading';
-import { inputRecipe } from './input';
-import { inputAddonRecipe } from './input-addon';
-import { kbdRecipe } from './kbd';
-import { linkRecipe } from './link';
-import { markRecipe } from './mark';
-import { separatorRecipe } from './separator';
-import { skeletonRecipe } from './skeleton';
-import { skipNavLinkRecipe } from './skip-nav-link';
-import { spinnerRecipe } from './spinner';
-import { textareaRecipe } from './textarea';
-import { iconRecipe } from './icon';
-import { checkmarkRecipe } from './checkmark';
-import { radiomarkRecipe } from './radiomark';
-import { colorSwatchRecipe } from './color-swatch';
+import { badgeRecipe } from './badge.js';
+import { buttonRecipe } from './button.js';
+import { codeRecipe } from './code.js';
+import { containerRecipe } from './container.js';
+import { headingRecipe } from './heading.js';
+import { inputRecipe } from './input.js';
+import { inputAddonRecipe } from './input-addon.js';
+import { kbdRecipe } from './kbd.js';
+import { linkRecipe } from './link.js';
+import { markRecipe } from './mark.js';
+import { separatorRecipe } from './separator.js';
+import { skeletonRecipe } from './skeleton.js';
+import { skipNavLinkRecipe } from './skip-nav-link.js';
+import { spinnerRecipe } from './spinner.js';
+import { textareaRecipe } from './textarea.js';
+import { iconRecipe } from './icon.js';
+import { checkmarkRecipe } from './checkmark.js';
+import { radiomarkRecipe } from './radiomark.js';
+import { colorSwatchRecipe } from './color-swatch.js';
 
 export const recipes = {
   badge: badgeRecipe,

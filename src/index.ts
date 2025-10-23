@@ -3,16 +3,16 @@ import {
   defaultBaseConfig,
   defineConfig,
 } from '@chakra-ui/react';
-import { animationStyles } from './animation-styles';
-import { breakpoints } from './breakpoints';
-import { globalCss } from './global-css';
-import { keyframes } from './keyframes';
-import { layerStyles } from './layer-styles';
-import { recipes } from './recipes';
-import { semanticTokens } from './semantic-tokens';
-import { slotRecipes } from './slot-recipes';
-import { textStyles } from './text-styles';
-import { tokens } from './tokens';
+import { animationStyles } from './animation-styles.js';
+import { breakpoints } from './breakpoints.js';
+import { globalCss } from './global-css.js';
+import { keyframes } from './keyframes.js';
+import { layerStyles } from './layer-styles.js';
+import { recipes } from './recipes/index.js';
+import { semanticTokens } from './semantic-tokens/index.js';
+import { slotRecipes } from './slot-recipes/index.js';
+import { textStyles } from './text-styles.js';
+import { tokens } from './tokens/index.js';
 
 const themeConfig = defineConfig({
   preflight: true,
