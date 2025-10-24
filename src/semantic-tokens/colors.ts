@@ -90,7 +90,7 @@ export const colors = defineSemanticTokens.colors({
     },
     error: {
       value: {
-        _light: '{colors.red.900}',
+        _light: '{colors.red.600}',
         _dark: '{colors.red.400}',
       },
     },

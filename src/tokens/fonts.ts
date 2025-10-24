@@ -11,7 +11,7 @@ export const fonts = defineTokens.fonts({
   },
   mono: {
     value:
-      '"DM Mono", SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace',
+      '"Azeret Mono", SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace',
   },
   display: {
     value: '"STIX Two Text", sans-serif',
