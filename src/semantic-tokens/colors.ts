@@ -274,7 +274,7 @@ export const colors = defineSemanticTokens.colors({
     },
     fg: {
       value: {
-        _light: '{colors.orange.700}',
+        _light: '{colors.orange.600}',
         _dark: '{colors.orange.300}',
       },
     },
@@ -362,7 +362,7 @@ export const colors = defineSemanticTokens.colors({
     },
     fg: {
       value: {
-        _light: '{colors.blue.700}',
+        _light: '{colors.blue.800}',
         _dark: '{colors.blue.300}',
       },
     },
@@ -406,7 +406,7 @@ export const colors = defineSemanticTokens.colors({
     },
     fg: {
       value: {
-        _light: '{colors.yellow.800}',
+        _light: '{colors.yellow.600}',
         _dark: '{colors.yellow.300}',
       },
     },
@@ -455,7 +455,7 @@ export const colors = defineSemanticTokens.colors({
     },
     fg: {
       value: {
-        _light: '{colors.teal.700}',
+        _light: '{colors.teal.600}',
         _dark: '{colors.teal.300}',
       },
     },
@@ -499,7 +499,7 @@ export const colors = defineSemanticTokens.colors({
     },
     fg: {
       value: {
-        _light: '{colors.purple.700}',
+        _light: '{colors.purple.600}',
         _dark: '{colors.purple.300}',
       },
     },
@@ -543,7 +543,7 @@ export const colors = defineSemanticTokens.colors({
     },
     fg: {
       value: {
-        _light: '{colors.pink.700}',
+        _light: '{colors.pink.600}',
         _dark: '{colors.pink.300}',
       },
     },

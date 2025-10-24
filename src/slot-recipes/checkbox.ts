@@ -17,9 +17,9 @@ export const checkboxSlotRecipe = defineSlotRecipe({
       justifyContent: 'center',
       flexShrink: '0',
       color: 'white',
-      borderWidth: '2px',
+      borderWidth: '1px',
       borderColor: 'transparent',
-      borderRadius: 'none',
+      borderRadius: 'xl',
       cursor: 'checkbox',
       focusVisibleRing: 'outside',
       _icon: {

@@ -59,8 +59,8 @@ export const accordionSlotRecipe = defineSlotRecipe({
         rotate: '180deg',
       },
       _icon: {
-        width: '1.2em',
-        height: '1.2em',
+        width: '1.8em',
+        height: '1.8em',
       },
     },
   },
