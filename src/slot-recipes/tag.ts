@@ -75,7 +75,7 @@ export const tagSlotRecipe = defineSlotRecipe({
           '--tag-element-offset': '-2px',
         },
         label: {
-          textStyle: 'xs',
+          textStyle: 'sm',
         },
       },
       lg: {
@@ -122,7 +122,7 @@ export const tagSlotRecipe = defineSlotRecipe({
         root: {
           color: 'colorPalette.fg',
           shadow: 'inset 0 0 0px 1px var(--shadow-color)',
-          shadowColor: 'colorPalette.muted',
+          shadowColor: 'colorPalette.solid',
         },
       },
       surface: {

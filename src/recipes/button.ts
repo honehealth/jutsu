@@ -20,7 +20,7 @@ export const buttonRecipe = defineRecipe({
     lineHeight: '1',
     isolation: 'isolate',
     fontWeight: 'medium',
-    textTransform: 'uppercase',
+    textTransform: 'capitalize',
     transitionProperty: 'common',
     transitionDuration: 'moderate',
     focusVisibleRing: 'outside',
@@ -69,7 +69,7 @@ export const buttonRecipe = defineRecipe({
       md: {
         h: '10',
         minW: '10',
-        textStyle: 'sm',
+        textStyle: 'md',
         px: '6',
         gap: '2',
         _icon: {
@@ -80,7 +80,7 @@ export const buttonRecipe = defineRecipe({
       lg: {
         h: '11',
         minW: '11',
-        textStyle: 'md',
+        textStyle: 'lg',
         px: '12',
         gap: '3',
         _icon: {
@@ -175,7 +175,6 @@ export const buttonRecipe = defineRecipe({
   },
   defaultVariants: {
     size: 'md',
-    colorPalette: 'yellow',
     variant: 'solid',
   },
 });
