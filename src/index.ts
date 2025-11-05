@@ -1,36 +1,35 @@
-import { extendTheme, theme as baseTheme, ThemeConfig } from '@chakra-ui/react';
-import colors from './colors';
-import components from './components';
+import {
+  createSystem,
+  defaultBaseConfig,
+  defineConfig,
+} from '@chakra-ui/react';
+import { animationStyles } from './animation-styles.js';
+import { breakpoints } from './breakpoints.js';
+import { globalCss } from './global-css.js';
+import { keyframes } from './keyframes.js';
+import { layerStyles } from './layer-styles.js';
+import { recipes } from './recipes/index.js';
+import { semanticTokens } from './semantic-tokens/index.js';
+import { slotRecipes } from './slot-recipes/index.js';
+import { textStyles } from './text-styles.js';
+import { tokens } from './tokens/index.js';
 
-export default extendTheme({
-  colors,
-  components,
-  fonts: {
-    body: 'DM Sans',
-    heading: 'DM Sans',
+const themeConfig = defineConfig({
+  preflight: true,
+  cssVarsPrefix: 'chakra',
+  cssVarsRoot: ':where(:root, :host)',
+  globalCss,
+  theme: {
+    breakpoints,
+    keyframes,
+    tokens,
+    semanticTokens,
+    recipes,
+    slotRecipes,
+    textStyles,
+    layerStyles,
+    animationStyles,
   },
-  initialColorMode: 'light',
-  letterSpacings: {
-    wide: '0.05rem',
-    wider: '0.10rem',
-    widest: '0.20rem',
-  },
-  sizes: {
-    ...baseTheme.space,
-    screen: {
-      height: '100vh',
-      width: '100vw',
-    },
-  },
-  shadows: {
-    ...baseTheme.shadows,
-    xs: '0px 2px 4px 0px rgba(234, 234, 234, 0.1)',
-    sm: '0px 2px 8px 0px rgba(234, 234, 234, 0.2)',
-    base: '0px 4px 16px 0px rgba(234, 234, 234, 0.25)',
-    md: '0px 4px 16px 0px rgba(234, 234, 234, 0.25)',
-    lg: '0px 8px 18px 0px rgba(234, 234, 234, 0.25)',
-    xl: '0px 6px 20px 0px rgba(234, 234, 234, 0.35)',
-    '2xl': '0px 6px 24px 0px rgba(234, 234, 234, 0.35)',
-  },
-  useSystemColorMode: false,
-} as ThemeConfig);
+});
+
+export const system = createSystem(defaultBaseConfig, themeConfig);

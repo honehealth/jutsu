@@ -1,0 +1,41 @@
+import { badgeRecipe } from './badge.js';
+import { buttonRecipe } from './button.js';
+import { codeRecipe } from './code.js';
+import { containerRecipe } from './container.js';
+import { headingRecipe } from './heading.js';
+import { inputRecipe } from './input.js';
+import { inputAddonRecipe } from './input-addon.js';
+import { kbdRecipe } from './kbd.js';
+import { linkRecipe } from './link.js';
+import { markRecipe } from './mark.js';
+import { separatorRecipe } from './separator.js';
+import { skeletonRecipe } from './skeleton.js';
+import { skipNavLinkRecipe } from './skip-nav-link.js';
+import { spinnerRecipe } from './spinner.js';
+import { textareaRecipe } from './textarea.js';
+import { iconRecipe } from './icon.js';
+import { checkmarkRecipe } from './checkmark.js';
+import { radiomarkRecipe } from './radiomark.js';
+import { colorSwatchRecipe } from './color-swatch.js';
+
+export const recipes = {
+  badge: badgeRecipe,
+  button: buttonRecipe,
+  code: codeRecipe,
+  container: containerRecipe,
+  heading: headingRecipe,
+  input: inputRecipe,
+  inputAddon: inputAddonRecipe,
+  kbd: kbdRecipe,
+  link: linkRecipe,
+  mark: markRecipe,
+  separator: separatorRecipe,
+  skeleton: skeletonRecipe,
+  skipNavLink: skipNavLinkRecipe,
+  spinner: spinnerRecipe,
+  textarea: textareaRecipe,
+  icon: iconRecipe,
+  checkmark: checkmarkRecipe,
+  radiomark: radiomarkRecipe,
+  colorSwatch: colorSwatchRecipe,
+};
