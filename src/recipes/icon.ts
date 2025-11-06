@@ -33,6 +33,6 @@ export const iconRecipe = defineRecipe({
     },
   },
   defaultVariants: {
-    size: 'inherit',
+    size: 'md',
   },
 });
