@@ -274,7 +274,7 @@ export const colors = defineSemanticTokens.colors({
     },
     fg: {
       value: {
-        _light: '{colors.orange.600}',
+        _light: '{colors.orange.700}',
         _dark: '{colors.orange.300}',
       },
     },
