@@ -168,10 +168,15 @@ export const dialogSlotRecipe = defineSlotRecipe({
       },
       lg: {
         content: {
-          maxW: '2xl',
+          maxW: 'xl',
         },
       },
       xl: {
+        content: {
+          maxW: '2xl',
+        },
+      },
+      '2xl': {
         content: {
           maxW: '4xl',
         },
