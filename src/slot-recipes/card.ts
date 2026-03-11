@@ -73,7 +73,7 @@ export const cardSlotRecipe = defineSlotRecipe({
       elevated: {
         root: {
           bg: 'bg.panel',
-          boxShadow: 'md',
+          boxShadow: '2',
         },
       },
       outline: {

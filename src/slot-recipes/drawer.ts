@@ -54,7 +54,7 @@ export const drawerSlotRecipe = defineSlotRecipe({
       maxH: '100dvh',
       color: 'inherit',
       bg: 'bg.panel',
-      boxShadow: 'lg',
+      boxShadow: '3',
       _open: {
         animationDuration: 'slowest',
         animationTimingFunction: 'ease-in-smooth',

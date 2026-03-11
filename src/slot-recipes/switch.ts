@@ -91,7 +91,7 @@ export const switchSlotRecipe = defineSlotRecipe({
           width: 'var(--switch-height)',
           height: 'var(--switch-height)',
           scale: '0.8',
-          boxShadow: 'sm',
+          boxShadow: '1',
           _checked: {
             bg: 'colorPalette.contrast',
           },
@@ -113,7 +113,7 @@ export const switchSlotRecipe = defineSlotRecipe({
           position: 'relative',
           top: 'calc(var(--switch-height) * -0.25)',
           bg: 'white',
-          boxShadow: 'xs',
+          boxShadow: '1',
           focusVisibleRing: 'outside',
           _checked: {
             bg: 'colorPalette.solid',

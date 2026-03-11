@@ -11,7 +11,7 @@ export const hoverCardSlotRecipe = defineSlotRecipe({
       textStyle: 'sm',
       '--hovercard-bg': 'colors.bg.panel',
       bg: 'var(--hovercard-bg)',
-      boxShadow: 'lg',
+      boxShadow: '3',
       maxWidth: '80',
       borderRadius: 'l3',
       zIndex: 'popover',

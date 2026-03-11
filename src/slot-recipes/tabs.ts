@@ -190,7 +190,7 @@ export const tabsSlotRecipe = defineSlotRecipe({
           _selected: {
             bg: 'bg',
             color: 'colorPalette.fg',
-            shadow: 'xs',
+            shadow: '1',
           },
         },
       },

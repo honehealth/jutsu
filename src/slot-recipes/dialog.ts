@@ -57,7 +57,7 @@ export const dialogSlotRecipe = defineSlotRecipe({
       '--dialog-z-index': 'zIndex.modal',
       zIndex: 'calc(var(--dialog-z-index) + var(--layer-index, 0))',
       bg: 'bg.panel',
-      boxShadow: 'lg',
+      boxShadow: '3',
       _open: {
         animationDuration: 'moderate',
       },

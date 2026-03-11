@@ -79,7 +79,7 @@ export const selectSlotRecipe = defineSlotRecipe({
       outline: 0,
       maxH: '96',
       overflowY: 'auto',
-      boxShadow: 'md',
+      boxShadow: '2',
       _open: {
         animationStyle: 'slide-fade-in',
         animationDuration: 'fast',
