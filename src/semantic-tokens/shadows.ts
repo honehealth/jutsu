@@ -8,6 +8,7 @@ import { defineSemanticTokens } from '@chakra-ui/react';
 
  *
  * @example
+ * ```tsx
  * // In your components
  * import { Box } from '@chakra-ui/react'
  *
@@ -16,6 +17,7 @@ import { defineSemanticTokens } from '@chakra-ui/react';
  * <Box boxShadow="shadows.2" /> // Card default shadow
  * <Box boxShadow="shadows.3" /> // Medium elevation
  * <Box boxShadow="shadows.4" /> // Strong elevation
+ * ```
  *
  * @example
  * // Or using shorthand in Chakra props
