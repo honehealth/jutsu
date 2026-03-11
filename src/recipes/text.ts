@@ -1,6 +1,6 @@
 import { defineRecipe } from '@chakra-ui/react';
 
-export const headingRecipe = defineRecipe({
+export const textRecipe = defineRecipe({
   className: 'chakra-text',
   base: {
     fontWeight: 'normal',

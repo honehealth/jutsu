@@ -3,7 +3,6 @@ import { defineRecipe } from '@chakra-ui/react';
 export const headingRecipe = defineRecipe({
   className: 'chakra-heading',
   base: {
-    fontFamily: 'heading',
     fontWeight: 'semibold',
     lineHeight: 'short',
   },
@@ -13,7 +12,7 @@ export const headingRecipe = defineRecipe({
         fontFamily: 'mono',
       },
       false: {
-        fontFamily: 'body',
+        fontFamily: 'heading',
       },
     },
     size: {
@@ -52,6 +51,9 @@ export const headingRecipe = defineRecipe({
         fontSize: '8xl',
       },
       '6xl': {
+        fontSize: '9xl',
+      },
+      '7xl': {
         fontSize: '9xl',
       },
     },
