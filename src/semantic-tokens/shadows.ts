@@ -21,10 +21,10 @@ import { defineSemanticTokens } from '@chakra-ui/react';
  *
  * @example
  * // Or using shorthand in Chakra props
+ * ``` tsx
  * <Box shadow="1" />
+ * ```
  *
- * // Tokens are automatically compiled to CSS custom properties:
- * // var(--shadows-1), var(--shadows-2), var(--shadows-3), var(--shadows-4)
  */
 export const shadows = defineSemanticTokens.shadows({
   '1': {
