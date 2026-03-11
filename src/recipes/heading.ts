@@ -63,14 +63,14 @@ export const headingRecipe = defineRecipe({
       numbers: true,
       size: '2xs',
       css: {
-        lineHeight: 'short',
+        lineHeight: 'moderate',
       },
     },
     {
       numbers: true,
       size: 'xs',
       css: {
-        lineHeight: 'short',
+        lineHeight: 'moderate',
       },
     },
   ],
