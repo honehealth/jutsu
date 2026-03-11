@@ -1,11 +1,10 @@
 import { defineRecipe } from '@chakra-ui/react';
 
 export const headingRecipe = defineRecipe({
-  className: 'chakra-heading',
+  className: 'chakra-text',
   base: {
-    fontFamily: 'heading',
-    fontWeight: 'semibold',
-    lineHeight: 'short',
+    fontWeight: 'normal',
+    lineHeight: 'moderate',
   },
   variants: {
     numbers: {
@@ -17,58 +16,56 @@ export const headingRecipe = defineRecipe({
       },
     },
     size: {
-      '2xs': {
-        fontSize: 'xs',
-      },
       xs: {
-        fontSize: 'sm',
+        fontSize: 'xs',
+        lineHeight: 'short',
       },
       sm: {
-        fontSize: 'md',
-        lineHeight: 'moderate',
+        fontSize: 'sm',
+        lineHeight: 'short',
       },
       default: {
-        fontSize: 'lg',
+        fontSize: 'ew',
       },
       md: {
-        fontSize: '2xl',
+        fontSize: 'md',
       },
       lg: {
-        fontSize: '3xl',
+        fontSize: 'lg',
       },
       xl: {
-        fontSize: '4xl',
+        fontSize: 'xl',
       },
       '2xl': {
-        fontSize: '5xl',
+        fontSize: '2xl',
       },
       '3xl': {
-        fontSize: '6xl',
+        fontSize: '3xl',
       },
       '4xl': {
-        fontSize: '7xl',
+        fontSize: '4xl',
       },
       '5xl': {
-        fontSize: '8xl',
+        fontSize: '5xl',
       },
       '6xl': {
-        fontSize: '9xl',
+        fontSize: '6xl',
       },
     },
   },
   compoundVariants: [
     {
       numbers: true,
-      size: '2xs',
+      size: 'xs',
       css: {
-        lineHeight: 'short',
+        lineHeight: 'moderate',
       },
     },
     {
       numbers: true,
-      size: 'xs',
+      size: 'sm',
       css: {
-        lineHeight: 'short',
+        lineHeight: 'moderate',
       },
     },
   ],

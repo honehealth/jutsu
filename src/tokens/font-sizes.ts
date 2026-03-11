@@ -10,6 +10,9 @@ export const fontSizes = defineTokens.fontSizes({
   sm: {
     value: '0.875rem',
   },
+  ew: {
+    value: '0.8125rem', // This is 13px btw 🤮
+  },
   md: {
     value: '1rem',
   },
