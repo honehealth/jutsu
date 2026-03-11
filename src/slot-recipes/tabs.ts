@@ -18,7 +18,7 @@ export const tabsSlotRecipe = defineSlotRecipe({
       display: 'inline-flex',
       position: 'relative',
       isolation: 'isolate',
-      '--tabs-indicator-shadow': 'shadows.xs',
+      '--tabs-indicator-shadow': 'shadows.1',
       '--tabs-indicator-bg': 'colors.bg',
       minH: 'var(--tabs-height)',
       _horizontal: {
