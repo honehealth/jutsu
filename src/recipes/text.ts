@@ -55,6 +55,6 @@ export const textRecipe = defineRecipe({
   },
   defaultVariants: {
     numbers: false,
-    size: 'default',
+    size: 'md',
   },
 });
