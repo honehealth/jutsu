@@ -1,52 +1,54 @@
 import { defineSemanticTokens } from '@chakra-ui/react';
 
+/**
+ * Shadow semantic tokens for the Jutsu design system.
+ *
+ * These tokens provide four elevation levels following the design system specifications.
+ * They include both light and dark mode values for proper contrast and visual hierarchy.
+
+ *
+ * @example
+ * ```tsx
+ * // In your components
+ * import { Box } from '@chakra-ui/react'
+ *
+ * // Using the shadows token reference
+ * <Box boxShadow="shadows.1" /> // Subtle shadow
+ * <Box boxShadow="shadows.2" /> // Card default shadow
+ * <Box boxShadow="shadows.3" /> // Medium elevation
+ * <Box boxShadow="shadows.4" /> // Strong elevation
+ * ```
+ *
+ * @example
+ * // Or using shorthand in Chakra props
+ * ``` tsx
+ * <Box shadow="1" />
+ * ```
+ *
+ */
 export const shadows = defineSemanticTokens.shadows({
-  xs: {
+  '1': {
     value: {
-      _light:
-        '0px 1px 2px {colors.gray.900/10}, 0px 0px 1px {colors.gray.900/20}',
+      _light: '0px 2px 4px 0px rgba(0, 0, 0, 0.04)',
       _dark: '0px 1px 1px {black/64}, 0px 0px 1px inset {colors.gray.300/20}',
     },
   },
-  sm: {
+  '2': {
     value: {
-      _light:
-        '0px 2px 4px {colors.gray.900/10}, 0px 0px 1px {colors.gray.900/30}',
+      _light: '0px 4px 12px 0px rgba(0, 0, 0, 0.08)',
       _dark: '0px 2px 4px {black/64}, 0px 0px 1px inset {colors.gray.300/30}',
     },
   },
-  md: {
+  '3': {
     value: {
-      _light:
-        '0px 4px 8px {colors.gray.900/10}, 0px 0px 1px {colors.gray.900/30}',
+      _light: '0px 4px 16px 0px rgba(0, 0, 0, 0.12)',
       _dark: '0px 4px 8px {black/64}, 0px 0px 1px inset {colors.gray.300/30}',
     },
   },
-  lg: {
+  '4': {
     value: {
-      _light:
-        '0px 8px 16px {colors.gray.900/10}, 0px 0px 1px {colors.gray.900/30}',
+      _light: '2px 4px 16px 0px rgba(0, 0, 0, 0.24)',
       _dark: '0px 8px 16px {black/64}, 0px 0px 1px inset {colors.gray.300/30}',
-    },
-  },
-  xl: {
-    value: {
-      _light:
-        '0px 16px 24px {colors.gray.900/10}, 0px 0px 1px {colors.gray.900/30}',
-      _dark: '0px 16px 24px {black/64}, 0px 0px 1px inset {colors.gray.300/30}',
-    },
-  },
-  '2xl': {
-    value: {
-      _light:
-        '0px 24px 40px {colors.gray.900/16}, 0px 0px 1px {colors.gray.900/30}',
-      _dark: '0px 24px 40px {black/64}, 0px 0px 1px inset {colors.gray.300/30}',
-    },
-  },
-  inner: {
-    value: {
-      _light: 'inset 0 2px 4px 0 {black/5}',
-      _dark: 'inset 0 2px 4px 0 black',
     },
   },
   inset: {

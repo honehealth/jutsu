@@ -36,7 +36,7 @@ export const toastSlotRecipe = defineSlotRecipe({
       },
       bg: 'bg.panel',
       color: 'fg',
-      boxShadow: 'xl',
+      boxShadow: '4',
       '--toast-trigger-bg': 'colors.bg.muted',
       '&[data-type=warning]': {
         bg: 'orange.subtle',

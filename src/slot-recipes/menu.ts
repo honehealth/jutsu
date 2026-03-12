@@ -23,7 +23,7 @@ export const menuSlotRecipe = defineSlotRecipe({
     content: {
       outline: 0,
       bg: 'bg.panel',
-      boxShadow: 'lg',
+      boxShadow: '3',
       color: 'fg',
       maxHeight: 'var(--available-height)',
       '--menu-z-index': 'zIndex.dropdown',

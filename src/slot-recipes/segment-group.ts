@@ -59,13 +59,13 @@ export const segmentGroupSlotRecipe = defineSlotRecipe({
         },
       },
       '&[data-state=checked][data-ssr]': {
-        shadow: 'sm',
+        shadow: '1',
         bg: 'bg',
         borderRadius: 'var(--segment-radius)',
       },
     },
     indicator: {
-      shadow: 'sm',
+      shadow: '1',
       pos: 'absolute',
       bg: {
         _light: 'bg',

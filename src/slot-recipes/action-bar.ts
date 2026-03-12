@@ -21,7 +21,7 @@ export const actionBarSlotRecipe = defineSlotRecipe({
     },
     content: {
       bg: 'bg.panel',
-      shadow: 'md',
+      shadow: '2',
       display: 'flex',
       alignItems: 'center',
       gap: '3',

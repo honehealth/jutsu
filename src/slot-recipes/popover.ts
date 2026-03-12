@@ -25,7 +25,7 @@ export const popoverSlotRecipe = defineSlotRecipe({
       textStyle: 'sm',
       '--popover-bg': 'colors.bg.panel',
       bg: 'var(--popover-bg)',
-      boxShadow: 'lg',
+      boxShadow: '3',
       '--popover-size': 'sizes.xs',
       '--popover-mobile-size': 'calc(100dvw - 1rem)',
       width: {
