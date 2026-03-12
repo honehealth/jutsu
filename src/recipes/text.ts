@@ -53,22 +53,6 @@ export const textRecipe = defineRecipe({
       },
     },
   },
-  compoundVariants: [
-    {
-      numbers: true,
-      size: 'xs',
-      css: {
-        lineHeight: 'moderate',
-      },
-    },
-    {
-      numbers: true,
-      size: 'sm',
-      css: {
-        lineHeight: 'moderate',
-      },
-    },
-  ],
   defaultVariants: {
     numbers: false,
     size: 'default',
