@@ -17,6 +17,7 @@ import { iconRecipe } from './icon.js';
 import { checkmarkRecipe } from './checkmark.js';
 import { radiomarkRecipe } from './radiomark.js';
 import { colorSwatchRecipe } from './color-swatch.js';
+import { textRecipe } from './text.js';
 
 export const recipes = {
   badge: badgeRecipe,
@@ -38,4 +39,5 @@ export const recipes = {
   checkmark: checkmarkRecipe,
   radiomark: radiomarkRecipe,
   colorSwatch: colorSwatchRecipe,
+  text: textRecipe,
 };
