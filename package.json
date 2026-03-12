@@ -8,7 +8,7 @@
   },
   "packageManager": "pnpm@10.13.1",
   "engines": {
-    "node": ">=22.17.1 <23",
+    "node": ">=24 <25",
     "pnpm": ">=10 <11"
   },
   "type": "module",
